@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+    <title>Sutasu Team</title>
+    <link rel="shortcut icon" href="favicon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css" integrity="sha256-2LsTD4scfANF6HuZklR+5S4fjt7Bj0QHmybFZux6wtw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<style type="text/css">
+  html,body{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+  }
+
+  .menu-malasngoding{
+    background-color: #333;
+  }
+
+  .menu-malasngoding ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .menu-malasngoding > ul > li {
+    float: left;
+  }
+
+
+  .menu-malasngoding li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .menu-malasngoding li a:hover{
+    background-color: black;
+  }
+
+  li.dropdown {
+    display: inline-block;
+  }
+
+  .dropdown:hover .isi-dropdown {
+    display: block;
+  }
+
+  .isi-dropdown a:hover {
+    color: #fff !important;
+  }
+  .dropdown{
+    float:right; margin:0; padding:0;
+  }
+
+  .isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 4;
+    background-color: #f9f9f9;
+    width: 100px;
+
+
+
+  }
+
+  .isi-dropdown a {
+    color: #3c3c3c !important;
+
+  }
+
+  .isi-dropdown a:hover {
+    color: #232323 !important;
+    background: #f3f3f3 !important;
+  }
+</style>
+
+<style>
+
+  #btnscrollToTop {
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: rgb(252, 106, 90);
+      color: #fff;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      z-index: 4;
+    }
+  
+    #btnscrollToTop:active{
+      background: rgb(238, 34, 12);
+    }
+  
+  </style>
+  
+  
+  </head>
+  <body>
+  
+    
+  
+    <button id="btnscrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+
+  <header class="header clearfix">
+    <a href="" class="header__logo">Sutasu Team</a>
+    <a href="" class="header__icon-bar">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <div class="menu-malasngoding clearfix header__menu ">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown"><a href="coming soon.html">Book</a>
+            <ul class="isi-dropdown">
+              <li><a href="coming soon.html">comic</a></li>
+         
+            </ul>
+          </li>
+           <li class="dropdown"><a href="Article home.html">Article</a>
+            <ul class="isi-dropdown">
+              <li><a href="coming soon.html">Arts</a></li>
+              <li><a href="coming soon.html">News</a></li>
+              <li><a href="coming soon.html">Majalah</a></li>
+              <li><a href="coming soon.html">Tabloid</a></li>
+            </ul>
+          </li>
+          <li><a href="Image.html">Image</a></li>
+          <li class="dropdown"><a href="page.html">Page</a>
+            <ul class="isi-dropdown">
+              <li><a href="coming soon.html">sharing</a></li>
+              <li><a href="coming soon.html">Club</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="Archive.html">Archive</a>
+          <ul class="isi-dropdown">
+            <li><a href="coming soon.html">Book</a></li>
+            <li><a href="coming soon.html">Article</a></li>
+            <li><a href="coming soon.html">Image</a></li>
+            <li><a href="coming soon.html">Page</a></li>
+            </li>
+            </ul>
+          <li><a href="contact us.html">Contact-Us</a></li>
+         </ul>
+       </div>
+
+      </header>
+
+
+    <section class="cover">
+      <div class="cover__filter"></div>
+      <div class="cover__caption">
+        <div class="cover__caption__copy">
+        </div>
+      </div>
+    </section>
+
+    <article class="single">
+      <div class="single__copy">
+       <h1> Coming Soon </h1>
+      </div>
+    </article>
+
+
+    
+    <footer class="footer">
+      <p>Created by : Ady Prasetiyo</p>
+      <div class="about">
+        <a href="coming soon.html">About &nbsp; /</a>
+        <a href="coming soon.html">&nbsp; Privacy policy &nbsp; /</a>
+        <a href="Disclaimer.html">&nbsp; Disclaimer &nbsp; /</a>
+    </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $( document ).ready(function() {
+
+
+    });
+
+
+     $(".header__icon-bar").click(function(e){
+
+
+
+
+    $(".header__menu").toggleClass('is-open');
+         e.preventDefault();
+
+    });
+
+
+    </script>
+
+
+  </script>
+
+
+<script>
+  const btnscrollToTop= document.querySelector("#btnscrollToTop");
+  btnscrollToTop.addEventListener("click", function(){
+    //window.scrollTo(0, 0);
+
+    // window.scrollTo({
+    //   top:0,
+    //   left:0,
+    //   behavior:"smooth"window.scrollTo({
+    // });
+
+    $("html,body").animate({scrollTop:0}, "slow");
+
+  });
+
+  </script>
+
+
+ </body>
+</html>
