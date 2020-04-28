@@ -473,7 +473,7 @@ position: relative; left: -297px;bottom: -34px;
 
 .middle{
   position: relative;
-  top: -476px;
+  top: 476px;
   left:537px;
 
   transform: translate(-50%, -50%);
@@ -776,14 +776,14 @@ book gallery
 
 
  }
-.gallery1__copy{max-width: 978px;margin: 0px auto; margin-top: -31px; background: #404149; padding: 1px 20px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 5px; 
-height: 55px;
+.gallery1__copy{max-width: 978px;margin: 0px auto; margin-top: -31px; background: #404149; padding: 1px 20px; position: relative; z-index: 3 ;background-image: url(); color: black; border-radius: 5px; 
+height: 55px; 
 }
 .gallery2{
   text-align: center;
   
  }
-.gallery2__copy{max-width: 352px;margin: 0px auto; margin-top: -10px; background-color: rgb(159, 163, 159); padding: 1px 5px;position :relative; z-index: 3 ;background-image: url(); border-radius: 12px; padding-bottom: 144px;
+.gallery2__copy{max-width: 352px;margin: 0px auto; margin-top: 110px; background-color: rgb(159, 163, 159); padding: 1px 5px; position: absolute; z-index: 3 ;background-image: url(); border-radius: 12px; padding-bottom: 144px;
 border: 1px solid #eee;left: 312px; box-shadow: 0 0px 2px rgba(0,0,0.1);
 }
 .gallery3{
@@ -792,20 +792,21 @@ border: 1px solid #eee;left: 312px; box-shadow: 0 0px 2px rgba(0,0,0.1);
  .gallery3 h3{ text-align: left;
 
  }
-.gallery3__copy{max-width: 352px;margin: 0px auto; margin-top:13px; background: rgb(250, 255, 248); padding: 1px 5px;position :relative; z-index: 3 ;background-image: url(); color: black;border-radius: 12px;
-left: 312px; padding-bottom: 300px;
+.gallery3__copy{max-width: 352px;margin: 0px auto; margin-top:513px; background: rgb(250, 255, 248); padding: 1px 5px; position: absolute;z-index: 3 ;background-image: url(); color: black;border-radius: 12px;
+left: 812px; padding-bottom: 300px;
 }
 .gallery4{
   text-align: center;
   
  }
-.gallery4__copy{max-width: 605px;margin: 0px auto; margin-top: 10px; background: rgb(197, 247, 178);position :relative; z-index: 3 ;left: -186px; background-image: url(); border-radius: 23px;
-  border: 5px solid #fff;
+.gallery4__copy{max-width: 705px;margin: 0px auto; margin-top: 110px; background: rgb(197, 247, 178); position: absolute; z-index: 3 ;
+  left: 186px; background-image: url(); border-radius: 13px;
+  border: 5px solid white;
 }
 .gallery5{
   text-align: center;
 }
-.gallery5__copy{max-width: 605px;margin: 0px auto; margin-top: -453px; background: rgb(255, 253, 248);position :relative; z-index: 3 ;left: -184px; background-image: url(); color: black;border-radius: 23px;
+.gallery5__copy{max-width: 605px;margin: 0px auto; margin-top: -453px; background: rgb(255, 253, 248); position: absolute; z-index: 3 ;left: -184px; background-image: url(); color: black;border-radius: 23px;
   border: 5px solid #fff; 
 }
 
@@ -813,15 +814,15 @@ left: 312px; padding-bottom: 300px;
   text-align: center;
   
  }
-.gallery6__copy{max-width: 978px;margin: 0px auto; margin-top: 11px; background: #404149; padding: 1px 20px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 5px; 
+.gallery6__copy{max-width: 978px;margin: 0px auto; margin-top: 11px; background: #404149; padding: 1px 20px; position: relative;  ;background-image: url(); color: black; border-radius: 5px; 
 
 }
 .gallery7{
   text-align: center;
   
  }
-.gallery7__copy{max-width: 352px;margin: 0px auto; margin-top:-615px; background: #eee; padding: 1px 5px;position :relative; z-index: 1 ;background-image: url(); color: black;border-radius: 1px;
-  left: 295px; padding-bottom: 616px;
+.gallery7__copy{max-width: 452px;margin: 0px auto; margin-top:615px; background: rgb(141, 61, 61); padding: 1px 5px; position: absolute; z-index: 1 ;background-image: url(); color: black;border-radius: 1px;
+  left: 495px; padding-bottom: 616px; padding-left: 434px;
 }
 .text_line{
 margin-left: -820px; color: rgb(235, 229, 229); 
@@ -1055,20 +1056,20 @@ Tablet
   text-align: center;
  }
  .gallery1 hr{
-  width:90px ; margin-top: 4px;
+  width:90px ; margin-top: 4px; position: absolute;
  }
  .text_line{
   margin-left: -620px; color: rgb(235, 229, 229); 
   margin-top: -5px; font-family: Vladimir Script;
 }
-.gallery1__copy{max-width: 778px;margin: 0px auto; margin-top: -31px; background: #404149; padding: 1px 20px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 5px; 
+.gallery1__copy{max-width: 778px;margin: 0px auto; margin-top: -31px; background: #404149; padding: 1px 20px; position: absolute; z-index: 3 ;background-image: url(); color: black; border-radius: 5px; 
 height: 55px;
 }
 .gallery2{
   text-align: center;
   
  }
-.gallery2__copy{max-width: 352px;margin: 0px auto; margin-top: -10px; background-color: rgb(159, 163, 159); padding: 1px 5px;position :relative; z-index: 3 ;background-image: url(); border-radius: 12px; padding-bottom: 144px;
+.gallery2__copy{max-width: 352px;margin: 0px auto; margin-top: -10px; background-color: rgb(159, 163, 159); padding: 1px 5px; position: relative; z-index: 3 ;background-image: url(); border-radius: 12px; padding-bottom: 144px;
 border: 1px solid #eee;left: 210px; box-shadow: 0 0px 2px rgba(0,0,0.1);
 }
 .gallery3{
@@ -1077,21 +1078,21 @@ border: 1px solid #eee;left: 210px; box-shadow: 0 0px 2px rgba(0,0,0.1);
  .gallery3 h3{ text-align: left;
 
  }
-.gallery3__copy{max-width: 352px;margin: 0px auto; margin-top:11px; background: rgb(250, 255, 248); padding: 1px 5px;position :relative; z-index: 3 ;background-image: url(); color: black;border-radius: 12px;
+.gallery3__copy{max-width: 352px;margin: 0px auto; margin-top:11px; background: rgb(250, 255, 248); padding: 1px 5px; position: absolute;z-index: 3 ;background-image: url(); color: black;border-radius: 12px;
 left: 212px; padding-bottom: 300px; margin-bottom: 8px;
 }
 .gallery4{
   text-align: center;
   
  }
-.gallery4__copy{max-width: 410px;margin: 0px auto; margin-top: 10px; background: rgb(197, 247, 178);position :relative; z-index: 3 ;
+.gallery4__copy{max-width: 410px;margin: 0px auto; margin-top: 10px; background: rgb(197, 247, 178); position: absolute; z-index: 3 ;
   left: -184px; background-image: url(); border-radius: 23px;
   border: 5px solid #fff;
 }
 .gallery5{
   text-align: center;
 }
-.gallery5__copy{max-width: 605px;margin: 0px auto; margin-top: -453px; background: rgb(255, 253, 248);position :relative; z-index: 3 ;left: -184px; background-image: url(); color: black;border-radius: 23px;
+.gallery5__copy{max-width: 605px;margin: 0px auto; margin-top: -453px; background: rgb(255, 253, 248); position: absolute; z-index: 3 ;left: -184px; background-image: url(); color: black;border-radius: 23px;
   border: 5px solid #fff; 
 }
 
@@ -1099,14 +1100,14 @@ left: 212px; padding-bottom: 300px; margin-bottom: 8px;
   text-align: center;
   
  }
-.gallery6__copy{max-width: 778px;margin: 0px auto; margin-top: 11px; background: #404149; padding: 1px 20px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 5px; 
+.gallery6__copy{max-width: 778px;margin: 0px auto; margin-top: 11px; background: #404149; padding: 1px 20px; position: relative; ;background-image: url(); color: black; border-radius: 5px; 
 
 }
 .gallery7{
   text-align: center;
   
  }
-.gallery7__copy{max-width: 762px;margin: 0px auto; margin-top:-625px; background: #eee; padding: 1px 5px;position :relative; z-index: 1 ;background-image: url(); color: black;border-radius: 1px;
+.gallery7__copy{max-width: 762px;margin: 0px auto; margin-top:-625px; background: #eee; padding: 1px 5px; position: absolute; z-index: 1 ;background-image: url(); color: black;border-radius: 1px;
   left: 510px; padding-bottom: 616px;
 }
 
@@ -1169,7 +1170,7 @@ position: relative; left: -297px;bottom: -34px;
 }
 
 .middle{
-  position: relative;
+  position: absolute;
   top: -473px;
   left: 337px;
   }
@@ -1330,14 +1331,14 @@ transition: all 1s;
   margin-left: -620px; color: rgb(235, 229, 229); 
   margin-top: -5px; font-family: Vladimir Script;
 }
-.gallery1__copy{max-width: 778px;margin: 0px auto; margin-top: -31px; background: #404149; padding: 1px 20px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 5px; 
+.gallery1__copy{max-width: 778px;margin: 0px auto; margin-top: -31px; background: #404149; padding: 1px 20px; position: relative; z-index: 3 ;background-image: url(); color: black; border-radius: 5px; 
 height: 55px; display: block;
 }
 .gallery2{
   text-align: center;
   
  }
-.gallery2__copy{max-width: 305px;margin: 0px auto; margin-top: -10px; background-color: rgb(159, 163, 159); padding: 1px 5px;position :relative; z-index: 3 ;background-image: url(); border-radius: 12px; padding-bottom: 144px;
+.gallery2__copy{max-width: 305px;margin: 0px auto; margin-top: -10px; background-color: rgb(159, 163, 159); padding: 1px 5px; position: absolute;z-index: 3 ;background-image: url(); border-radius: 12px; padding-bottom: 144px;
 border: 1px solid #eee;left: 415px; box-shadow: 0 0px 2px rgba(0,0,0.1);
 }
 .gallery3{
@@ -1346,21 +1347,21 @@ border: 1px solid #eee;left: 415px; box-shadow: 0 0px 2px rgba(0,0,0.1);
  .gallery3 h3{ text-align: left;
 
  }
-.gallery3__copy{max-width: 300px;margin: 0px auto; margin-top:263px; background: rgb(250, 255, 248); padding: 1px 5px;position :relative; z-index: 3 ;background-image: url(); color: black;border-radius: 12px;
+.gallery3__copy{max-width: 300px;margin: 0px auto; margin-top:263px; background: rgb(250, 255, 248); padding: 1px 5px; position: absolute;z-index: 3 ;background-image: url(); color: black;border-radius: 12px;
 left: 208px; padding-bottom: 300px;
 }
 .gallery4{
   text-align: center;
   
  }
-.gallery4__copy{max-width: 410px;margin: 0px auto; margin-top: 10px; background: rgb(197, 247, 178);position :relative; z-index: 3 ;
+.gallery4__copy{max-width: 410px;margin: 0px auto; margin-top: 10px; background: rgb(197, 247, 178); position: absolute; z-index: 3 ;
   left: -184px; background-image: url(); border-radius: 23px;
   border: 5px solid #fff;
 }
 .gallery5{
   text-align: center;
 }
-.gallery5__copy{max-width: 305px;margin: 0px auto; margin-top: -453px; background: rgb(255, 253, 248);position :relative; z-index: 3 ;left: -184px; background-image: url(); color: black;border-radius: 23px;
+.gallery5__copy{max-width: 305px;margin: 0px auto; margin-top: -453px; background: rgb(255, 253, 248); position: absolute; z-index: 3 ;left: -184px; background-image: url(); color: black;border-radius: 23px;
   border: 5px solid #fff; 
 }
 
@@ -1368,14 +1369,14 @@ left: 208px; padding-bottom: 300px;
   text-align: center;
   
  }
-.gallery6__copy{max-width: 778px;margin: 0px auto; margin-top: 11px; background: #404149; padding: 1px 20px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 5px; 
+.gallery6__copy{max-width: 778px;margin: 0px auto; margin-top: 11px; background: #404149; padding: 1px 20px; position: relative; ;background-image: url(); color: black; border-radius: 5px; 
 
 }
 .gallery7{
   text-align: center;
   
  }
-.gallery7__copy{max-width: 352px;margin: 0px auto; margin-top:-615px; background: #eee; padding: 1px 5px;position :relative; z-index: 1 ;background-image: url(); color: black;border-radius: 1px;
+.gallery7__copy{max-width: 352px;margin: 0px auto; margin-top:-615px; background: #eee; padding: 1px 5px; position: absolute; z-index: 1 ;background-image: url(); color: black;border-radius: 1px;
   left: 295px; padding-bottom: 616px;
 }
 
@@ -1440,7 +1441,7 @@ position: relative; left: -297px;bottom: -34px;
 }
 
 .middle{
-  position: relative;
+  position: absolute;
   top: -477px;
   left: 350px;
   }
