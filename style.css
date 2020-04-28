@@ -1330,15 +1330,15 @@ transition: all 1s;
   margin-left: -370px; color: rgb(235, 229, 229); 
   margin-top: 8px; font-family: Vladimir Script; font-size: 11px;
 }
-.gallery1__copy{max-width: 100%;margin: 0px auto; margin-top: -31px; background: #404149; padding: 1px 20px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 5px; 
-display: block;
+.gallery1__copy{max-width:778px ;margin: 0px auto; margin-top: -31px; background: #404149; padding: 1px 20px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 5px; 
+
 }
 .gallery2{
   text-align: center;
   
  }
 .gallery2__copy{max-width: 155px;margin: 0px auto; margin-top: -10px; background-color: rgb(159, 163, 159); padding: 1px 5px;position :relative; z-index: 3 ;background-image: url(); border-radius: 12px; padding-bottom: 54px;
-border: 1px solid #eee;left: 55px; box-shadow: 0 0px 2px rgba(0,0,0.1);
+border: 1px solid #eee;left: 145px; box-shadow: 0 0px 2px rgba(0,0,0.1);
 }
 .gallery3{
   text-align: center;
@@ -1377,8 +1377,8 @@ left: 155px;
   text-align: center;
   
  }
-.gallery7__copy{max-width: 352px;margin: 0px auto; margin-top:-375px; background: #eee; padding: 1px 5px;position :relative;background-image: url(); color: black;border-radius: 1px;
-  left: 240px; padding-bottom: 716px;
+.gallery7__copy{max-width: 152px;margin: 0px auto; margin-top:-375px; background: #eee; position :relative;background-image: url(); color: black;border-radius: 1px;
+  left: -31px; padding-bottom: 716px;
 }
 
 
@@ -1479,8 +1479,8 @@ position: relative; left: -297px;bottom: -34px;
       padding: 0;
       float: left;
       position: relative;
-      width: 30px;
-      height: 40px;
+      width: 27px;
+      height: 20px;
       -moz-transition: all 500ms linear;
       -o-transition: all 500ms linear;
       -webkit-transition: all 500ms linear;
@@ -1493,7 +1493,7 @@ position: relative; left: -297px;bottom: -34px;
         -moz-user-select: none;
         -webkit-user-select: none;
         user-select: none;
-        width: 390px;
+        width: 135px;
       
 
         }
@@ -1509,8 +1509,8 @@ position: relative; left: -297px;bottom: -34px;
         -webkit-border-radius: 100px;
         border-radius: 100px;
         display: block;
-        width: 33px;
-        height: 35px;
+        width: 23px;
+        height: 25px;
         top: -10%;
         left: 5%;
         outline: none;
