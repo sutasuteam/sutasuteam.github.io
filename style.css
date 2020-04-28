@@ -1330,13 +1330,13 @@ transition: all 1s;
   margin-top: -5px; font-family: Vladimir Script;
 }
 .gallery1__copy{max-width: 778px;margin: 0px auto; margin-top: -31px; background: #404149; padding: 1px 20px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 5px; 
-height: 55px;
+height: 55px; display: block;
 }
 .gallery2{
   text-align: center;
   
  }
-.gallery2__copy{max-width: 352px;margin: 0px auto; margin-top: -10px; background-color: rgb(159, 163, 159); padding: 1px 5px;position :absolute; z-index: 3 ;background-image: url(); border-radius: 12px; padding-bottom: 144px;
+.gallery2__copy{max-width: 305px;margin: 0px auto; margin-top: -10px; background-color: rgb(159, 163, 159); padding: 1px 5px;position :absolute; z-index: 3 ;background-image: url(); border-radius: 12px; padding-bottom: 144px;
 border: 1px solid #eee;left: 415px; box-shadow: 0 0px 2px rgba(0,0,0.1);
 }
 .gallery3{
@@ -1345,7 +1345,7 @@ border: 1px solid #eee;left: 415px; box-shadow: 0 0px 2px rgba(0,0,0.1);
  .gallery3 h3{ text-align: left;
 
  }
-.gallery3__copy{max-width: 352px;margin: 0px auto; margin-top:263px; background: rgb(250, 255, 248); padding: 1px 5px;position :relative; z-index: 3 ;background-image: url(); color: black;border-radius: 12px;
+.gallery3__copy{max-width: 300px;margin: 0px auto; margin-top:263px; background: rgb(250, 255, 248); padding: 1px 5px;position :relative; z-index: 3 ;background-image: url(); color: black;border-radius: 12px;
 left: 208px; padding-bottom: 300px;
 }
 .gallery4{
@@ -1359,7 +1359,7 @@ left: 208px; padding-bottom: 300px;
 .gallery5{
   text-align: center;
 }
-.gallery5__copy{max-width: 605px;margin: 0px auto; margin-top: -453px; background: rgb(255, 253, 248);position :relative; z-index: 3 ;left: -184px; background-image: url(); color: black;border-radius: 23px;
+.gallery5__copy{max-width: 305px;margin: 0px auto; margin-top: -453px; background: rgb(255, 253, 248);position :relative; z-index: 3 ;left: -184px; background-image: url(); color: black;border-radius: 23px;
   border: 5px solid #fff; 
 }
 
@@ -1377,6 +1377,8 @@ left: 208px; padding-bottom: 300px;
 .gallery7__copy{max-width: 352px;margin: 0px auto; margin-top:-615px; background: #eee; padding: 1px 5px;position :relative; z-index: 1 ;background-image: url(); color: black;border-radius: 1px;
   left: 295px; padding-bottom: 616px;
 }
+
+
 
 /* external css: flickity.css */
 
@@ -1433,7 +1435,7 @@ position: relative; left: -297px;bottom: -34px;
 }
 
 .slidershow{
-  width: 604pxpx ; height: 613px; overflow: hidden;
+  width: 604pxpx ; height: 613px; overflow: hidden; 
 }
 
 .middle{
@@ -1453,7 +1455,143 @@ position: relative; left: -297px;bottom: -34px;
       cursor: pointer;
       transition: 0.4s;
       }
-
+      ul.system-menu li a {
+        position: absolute;
+       
+        text-decoration: none;
+        font: 13px/30px Arial, sans-serif;
+        padding: 0;
+        background: #0070FF;
+        color: transparent;
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px;
+        border-radius: 100px;
+        display: block;
+        width: 43px;
+        height: 45px;
+        top: -10%;
+        left: 15%;
+        outline: none;
+        border: 5px inset rgb(212, 223, 192);
+      
+        -moz-transition: all 100ms linear;
+        -o-transition: all 100ms linear;
+        -webkit-transition: all 100ms linear;
+        transition: all 100ms linear
+        }
+        ul.system-menu li span.pembuka {
+          position: absolute;
+          left: 35%;
+          margin: 0 0 0 -24%;
+          top: 8px;
+          width: 20px;
+          height: 25px;
+          background: #949596;
+          -moz-box-shadow: 3px -3px 0 0 #ECECEC;
+          -webkit-box-shadow: 3px -3px 0 0 #ECECEC;
+          box-shadow: 3px -3px 0 0 #ECECEC;
+          
+          }
+        ul.system-menu li span.satu, ul.system-menu li span.dua, ul.system-menu li span.tiga {
+          position: absolute;
+          background: #F0F0F0;
+          padding: 1px;
+          width: 3px;
+          left: 4px ; 
+         
+          }
+      ul.system-menu li span.satu {
+          top: 5px;
+         
+          }
+      ul.system-menu li span.dua {
+          top: 13px;
+        
+          }
+    ul.system-menu li span.tiga {
+        top: 22px 
+        
+        }
+    .empat, .lima{
+        position: absolute
+        }
+        .empat {
+          border: 10px solid;
+          border-color: transparent transparent #EEE transparent;
+          top: -7px;
+          left: 10px; 
+          }
+        .lima {
+          padding: 4px;
+          background: #EEE;
+          height: 5px;
+          top: 22px;
+          left: 14px
+          }
+   
+    .abot, .abit {
+        position: absolute;
+        left: 15px  
+        }
+        .abot {
+          width: 15px;
+          height: 12px;
+          background: #EEE;
+          top: 20%;
+          -moz-border-radius: 100px;
+          -webkit-border-radius: 100px;
+          border-radius: 100px;
+          left:12px
+          }
+    .abit {
+        border: 8px solid;
+        border-color: transparent transparent #EEE transparent;
+        top: 30%; left:12px
+        }
+        .a, .b, .c, .d {
+          position: absolute;
+          padding: 4px;
+          background: #FFF7F7;
+          top: 26%;
+          
+          }
+    .a {
+      left: 22px;
+  
+        top:10px;
+        background: #39FF13
+        }
+    .b {
+        top: 21px;
+        left: 13px;
+        background: rgb(211, 115, 51)
+        }
+    .c {
+        left: 22px;
+        top: 21px;
+        background: #FFE000
+        }
+    .d {
+        left: 13px;
+        top:10px
+        }
+    .e, .f {
+        position: absolute
+        }
+        .e {
+          width: 10px;
+          height: 12px;
+          background: rgb(171, 185, 163);
+          top: 35%;
+          left: 32%;
+          border: 2px solid rgb(255, 255, 255)
+          }
+    .f {
+        border: 7px solid;
+        border-color: transparent transparent rgb(255, 255, 255) transparent;
+        top: -2px;
+        left: 34%
+        }
 
 }
 
@@ -1495,4 +1633,3 @@ font-family: Fourth; src: url(Fourth-Edition.otf;)}
       -moz-box-sizing: border-box;
         box-sizing: border-box;
   }
- 
