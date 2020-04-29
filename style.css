@@ -364,7 +364,7 @@ margin: 1px black solid;
           padding: 29px;
           padding-left: 45px;
           background: #0070FF;
-          top: 0% ;
+          top: 1px ;
           left: 0px;
           border-radius: 3px;
           }
@@ -374,7 +374,7 @@ margin: 1px black solid;
             padding-left: 45px;
             padding-top: 524px;
             background: rgb(250, 249, 249);
-            top: 103% ;
+            top: 105% ;
             left: 0px;
             border-radius: 3px;
             }
@@ -468,13 +468,13 @@ position: relative; left: -297px;bottom: -34px;
 }*/
 
 .slidershow{
-  width: 700px ; height: 613px; overflow: hidden;
+  width: 700px ; height: 613px; overflow: hidden;margin: 0px auto;
 }
 
 .middle{
   position: relative;
   top: -475px;
-  left:537px;
+  left:212px;
 
   transform: translate(-50%, -50%);
 }
@@ -1165,13 +1165,13 @@ position: relative; left: -297px;bottom: -34px;
 }
 
 .slidershow{
-  width: 614px ; height: 613px; overflow: hidden;
+  width: 614px ; height: 613px; overflow: hidden;margin: 0px auto;
 }
 
 .middle{
   position: relative;
   top: -473px;
-  left: 337px;
+  left: 227px;
   }
   .navigation{
     position: absolute; bottom: 20px; left: 45%;transform: translateX(-50%); display: flex;
@@ -1438,13 +1438,13 @@ position: relative; left: -17px;bottom: -34px; font-size: 7px;
 }
 
 .slidershow{
-  width: 267px ; height: 325px; overflow: hidden;
+  width: 267px ; height: 325px; overflow: hidden;margin: 0px auto;
 }
 
 .middle{
   position: relative;
   top: -322px;
-  left: 207px;
+  left: 87px;
   }
   .navigation{
     position: absolute; bottom: 10px; left: 45%;transform: translateX(-50%); display: flex;
