@@ -1047,7 +1047,7 @@ transition: all 1s;
 /*------------------------------
 Tablet
 ------------------------------*/
-@media (max-width: 998px){
+@media (max-width: 1024px){
   /* banner */
   .banner__image,
   .banner__copy{width: 50%;height: 50%}
@@ -1272,7 +1272,7 @@ position: relative; left: -297px;bottom: -34px;
 
 .middle{
   position: relative;
-  top: -473px;
+  top: -457px;
   left: 227px;
   }
   .navigation{
