@@ -736,8 +736,10 @@ single
 .single{
   text-align: center;
  }
+ 
 
 .single__copy{max-width: 800px;margin: 0px auto; margin-top: -60px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;background-image: url(I-unsplash.jpg); color: black;}
+
 .single__copy__meta{font-weight: bold;font-size: 10px;font-family: Zetafonts; text-align: justify;color: #eee;}
 .single__copy__meta1{font-weight: bold;font-size: 10px;font-family: Zetafonts; text-align: justify;color: black;}
 .single__copy__meta2{font-weight: bold;font-size: 12px;font-family: Zetafonts; text-align: justify;}
@@ -753,6 +755,18 @@ single
 .single__copy4{max-width: 604px;margin: 14px auto; margin-top: 10px; background: #fff; padding: 20px 40px;position :absolute;  background-image: url(); text-align: justify; left: -184px; }
 .single__copy5{max-width: 800px;margin: 14px auto; margin-top: -40px; background: #eee; padding: 20px 40px;position :relative; background-image: url(); text-align: justify; }
 
+.single5{
+  text-align: center;
+ }
+
+.single__copy5{max-width: 800px;margin: 0px auto; margin-top: -70px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ; color: black; text-align: center;}
+
+.single5{
+  text-align: center;
+ }
+
+.single__copy8{max-width: 800px;margin: 0px auto; margin-top: 0px; background: #eee; padding: 20px 40px;position :relative; z-index: 3 ; color: black; text-align: center;padding-bottom: 123px;
+}
 
 /*------------------------------
 single archive
@@ -760,31 +774,85 @@ single archive
 
 .single__copy6{display: block;margin: 0px auto; margin-top: 50px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;background-image: url(); color: black;padding-bottom: 523px;
 }
-.single__copy6__meta{font-weight: bold;font-size: 10px;font-family: Zetafonts; text-align: justify;color: #eee;
+.single__copy6 h1{
+ text-align: left; position: relative; top: 34px; left: 250px;
 }
+.single__copy6 h5{
+  text-align: left; position: relative; top: 30px; left: 250px;
+ }
+
 .gallery8{
   text-align: center;
 
  }
-.gallery8__copy{max-width: 238px;margin: 0px auto; margin-top: -5px; background: #333; padding: 1px 20px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 0px;
-padding-bottom: 54px;left: -525px;top: -510px;
+.gallery8__copy{max-width: 238px;margin: 0px auto; margin-top: -84px; background: #333; padding: 1px 20px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 0px;
+padding-bottom: 54px;left: -522px;top: -540px;  border:2px solid rgb(82, 76, 76)
 }
 
 .gallery9{
-  text-align: left;left: 34px; display: block;
+  text-align: left;
 
  }
-.gallery9__copy{max-width: 238px;margin: 0px auto; margin-top: -5px; background: rgb(175, 64, 64); padding: 1px 0px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 0px;
-;left: -525px;top: -490px;
+.gallery9__copy{max-width: 238px;margin: 0px auto; margin-top: -5px; background: #fff; padding: 1px 0px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 0px;
+;left: -525px;top: -470px;
 }
 .ga{
   display: inline-block;
   color: rgb(22, 20, 20);
-  text-align: center;
-  
-  text-decoration: none;
+  text-align: left;
+  padding-top: -64px;
+  text-decoration: none;z-index: 2;
+ 
 }
 
+/*------------------------------
+image2
+------------------------------*/
+.image2{
+	float : left;
+	width : 15%;
+	margin-right: 10px;
+  border: 2px solid rgb(82, 76, 76);
+  position: relative; left: 250px;
+  bottom: -34px; z-index: 3;
+
+}
+
+.image2:hover{
+border:2px solid rgb(82, 76, 76); transform: scale(1.1);
+
+}
+
+img{
+	width: 100%;
+  height:auto;
+
+}
+
+.des2{
+padding: 20px;
+text-align: center;
+background-color: rgb(104, 100, 100);
+z-index: 2; 
+position: absolute;
+padding-left: 170px;
+left: -2px;
+top: 118px;
+}
+.des__caption2{  height: 100%; width: 100%; position: relative; z-index:1; padding: 0 20px ;}
+
+.des__text{
+position: relative;left: -1000px; bottom: -234px;
+
+}
+
+.cover_text{
+position: relative;left: 567px;top: 219px;color: #000;
+
+}
+.cover_text img{
+  width: 16px; height:18px;bottom: -40px; position: relative; left: 93px;
+}
 
 /*------------------------------
 GALERY copy
@@ -1218,6 +1286,9 @@ position: relative; left: -297px;bottom: -34px;
       margin: 6px;
       cursor: pointer;
       transition: 0.4s;
+      }
+      .footer{background: #333;padding:20px;color:#fff;margin-top: 40px;
+        position: relative; z-index: 2;font-size: 8px;
       }
 }
 
@@ -1706,10 +1777,51 @@ position: relative; left: -44px;bottom: -14px; font-size: 7px;
             border-radius: 3px;
             
             }
-
+            .footer{background: #333;padding:20px;color:#fff;margin-top: 40px;
+              position: relative; z-index: 2;font-size: 8px;
+            }
 
 
       }
+      /*------------------------------
+      Smar phone
+      ------------------------------*/
+      @media (max-width: 360px){
+
+        .slidershow{
+          width: 237px ; height: 329px; overflow: hidden;margin: 0px auto;
+        }
+        
+        .middle{
+          position: relative;
+          top: -343px;
+          left: 58px;
+          }
+          .footer{background: #333;padding:20px;color:#fff;margin-top: 40px;
+            position: relative; z-index: 2;font-size: 8px;
+          }
+      }
+
+       /*------------------------------
+      Smar phone
+      ------------------------------*/
+      @media (max-width: 375px){
+
+        .slidershow{
+          width: 237px ; height: 329px; overflow: hidden;margin: 0px auto;
+        }
+        
+        .middle{
+          position: relative;
+          top: -343px;
+          left: 58px;
+          }
+          .footer{background: #333;padding:20px;color:#fff;margin-top: 40px;
+            position: relative; z-index: 2;font-size: 6px;
+          }
+
+      }
+
 
   /*------------------------------
 font-face
@@ -1730,6 +1842,13 @@ font-family: Fourth; src: url(Fourth-Edition.otf;)}
   font-family: Vladimir Script; src: url(vladimir_script_regular.ttf;)}
 
 
+
+
+
+
+  /*------------------------------
+     clearfix
+  ------------------------------*/
 
 .clearfix:after {
     visibility: hidden;
