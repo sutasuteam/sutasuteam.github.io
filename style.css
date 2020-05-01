@@ -1429,14 +1429,14 @@ transition: all 1s;
   text-align: center;
  }
  .gallery1 hr{
-  width:50px ; margin-top: 4px;
+  width:40px ; margin-top: 4px;
  }
  .text_line{
   margin-left: -290px; color: rgb(235, 229, 229);
-  margin-top: -2px; font-family: Vladimir Script; font-size: 11px;
+  margin-top: -2px; font-family: Vladimir Script; font-size: 8px;
 }
 .gallery1__copy{max-width:360px ;margin: 0px auto; margin-top: -19px; background: #404149; padding: 1px 10px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 5px;
-height: 34px;
+height: 32px;
 }
 .gallery2{
   text-align: center;
@@ -1460,7 +1460,7 @@ left: 105px; padding-bottom: 177px;
  }
 .gallery4__copy{max-width: 200px;margin: 0px auto; margin-top: 7px; position :relative; z-index: 3 ;
   left: -80px; background-image: url(); border-radius: 23px;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
 }
 
 .gallery5{
@@ -1475,7 +1475,7 @@ left: 155px; height: 12px;
   text-align: center;
 
  }
-.gallery6__copy{max-width:360px;margin: 0px auto; background: #404149; padding: 1px 20px;position :relative; z-index: 3 ; border-radius: 5px; top: -2px; height: 20px; 
+.gallery6__copy{max-width:360px;margin: 0px auto; background: #404149; padding: 1px 20px;position :relative; z-index: 3 ; border-radius: 5px; top: -2px; height: 15px; 
 
 }
 .gallery7{
@@ -1548,7 +1548,7 @@ position: relative; left: -44px;bottom: -14px; font-size: 7px;
 
 .middle{
   position: relative;
-  top: -310px;
+  top: -305px;
   left: 58px;
   }
   .navigation{
