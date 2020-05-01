@@ -1297,7 +1297,7 @@ position: relative; left: -297px;bottom: -34px;
 /*------------------------------
 Smar phone
 ------------------------------*/
-@media (max-width: 767px){
+@media (max-width: 768px){
 
   .header{position:fixed; z-index: 100;width:100%}
   .header__icon-bar{display: block;}
