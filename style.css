@@ -36,6 +36,7 @@ text-align:  #fff;float: right;
 .abouat a{color:#fff; display: inline-block;}
 
 
+
 /*------------------------------
 comment box
 ------------------------------*/
@@ -389,18 +390,6 @@ margin: 1px black solid;
         <span class='empat'></span>
         <span class='lima'></span>
 
-       ul.system-menu li span.pembuka {
-        position: absolute;
-        left: 50%;
-        margin: 0 0 0 -29%;
-        top: 11px;
-        width: 25px;
-        height: 30px;
-        background: #949596;
-        -moz-box-shadow: 3px -3px 0 0 #ECECEC;
-        -webkit-box-shadow: 3px -3px 0 0 #ECECEC;
-        box-shadow: 3px -3px 0 0 #ECECEC
-        }
         }*/
 
 
@@ -495,7 +484,7 @@ background: #fff;
 
 }
 .slides{
-  width: 434%; height: 100%;display: flex;
+  width: 434%; height: 100%;display: flex; position: absolute
 
   }
 
@@ -772,29 +761,87 @@ single
 single archive
 ------------------------------*/
 
-.single__copy6{display: block;margin: 0px auto; margin-top: 50px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;background-image: url(); color: black;padding-bottom: 523px;
+.content{
+  position: relative;top: 0px;left: 30px;
+ 
 }
-.single__copy6 h1{
- text-align: left; position: relative; top: 34px; left: 250px;
+
+
+.content h1{
+position: absolute; 
+transform: translate(-50%, -50%);
+font-size: 3em;
 }
+.content h1:nth-child(1)
+  {
+    color: transparent ;
+    -webkit-text-stroke: 2px #03a9f4;
+  }
+  .content h1:nth-child(2)
+  {
+    color: #03a9f4 ;
+    animation: animate 4s ease-in-out infinite;
+  }
+  @keyframes animate{
+    0%,100%
+    {
+      clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 
+      100% 100%, 0% 100%);
+    }
+    50%
+    {
+      clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 
+      100% 100%, 0% 100%);
+    }
+  }
+
+
+  .single__copy6{margin: 0px auto; margin-top: -70px; background: #fff; 
+  padding: 20px 40px;position :relative; z-index: 1 ;background-image: url(); color: black;
+  padding-bottom: 623px;top: 122px; 
+  }
+  .single__copy7{margin: 0px auto;  background: #eee; 
+   position :relative;  z-index: 3;
+    ;top: -200px;  padding-top: 15px;
+    }
+
+    .single__copy6 h1{
+      text-align: left; position: relative; padding-left: 248px;
+      top: 23px;
+     }
 .single__copy6 h5{
-  text-align: left; position: relative; top: 30px; left: 250px;
+  text-align: left; position: relative; top: 3px; 
  }
+ .single__cop6 h5{
+  text-align: left; position: relative; top: 37px; padding-left: 250px;
+ }
+
+ .single__copy6 a{ 
+  color:rgb(34, 27, 27);
+  position: relative; font-size: 12px;
+}
+ 
 
 .gallery8{
   text-align: center;
 
  }
-.gallery8__copy{max-width: 238px;margin: 0px auto; margin-top: -84px; background: #333; padding: 1px 20px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 0px;
-padding-bottom: 54px;left: -522px;top: -540px;  border:2px solid rgb(82, 76, 76)
+.gallery8__copy{max-width: 250px;margin: 0px auto; margin-top: 15px; background: #333; 
+padding: 1px 20px;position :relative; z-index: 3 ; color: black; border-radius: 0px;
+left: -520px;top: -643px;  border:2px solid rgb(82, 76, 76);padding-left: 94px;
+height: 80px;
+}
+.gallery8__copy h1{
+  color: #eee;
 }
 
 .gallery9{
   text-align: left;
 
  }
-.gallery9__copy{max-width: 238px;margin: 0px auto; margin-top: -5px; background: #fff; padding: 1px 0px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 0px;
-;left: -525px;top: -470px;
+.gallery9__copy{max-width: 238px;margin: 0px auto; margin-top: -2px; background: #fff; 
+  padding: 1px 0px;position :relative; z-index: 1 ;background-image: url(); color: black; border-radius: 0px;
+;left: -530px;top: -670px;
 }
 .ga{
   display: inline-block;
@@ -829,6 +876,10 @@ img{
 
 }
 
+.ukuran { position: relative; top: 4px;
+  width: 20px;
+}
+
 .des2{
 padding: 20px;
 text-align: center;
@@ -841,9 +892,12 @@ top: 118px;
 }
 .des__caption2{  height: 100%; width: 100%; position: relative; z-index:1; padding: 0 20px ;}
 
-.des__text{
-position: relative;left: -1000px; bottom: -234px;
+.des__text{ height: 234px; width:300px; text-align: justify;
+position: absolute;left: 290px; bottom: -4px;
 
+}
+.des__text h5{height: 234px; width:300px; text-align: justify; position: absolute;
+left: 0px;
 }
 
 .cover_text{
@@ -854,6 +908,11 @@ position: relative;left: 567px;top: 219px;color: #000;
   width: 16px; height:18px;bottom: -40px; position: relative; left: 93px;
 }
 
+.pics{position: relative; z-index: 2;top: -334px; left: 30px;
+
+
+}
+
 /*------------------------------
 GALERY copy
 ------------------------------*/
@@ -862,13 +921,26 @@ GALERY copy
 .galery__copy__meta{font-weight: bold;font-size: 18px;font-style: italic;}
 .galery__copy__title{font-size: 32px;}
 
+/*------------------------------
+text cover
+------------------------------*/
+.text_cover a{ color: #000; position: relative;left: -255px; bottom: -231px; z-index:-1;
+
+}
+.text_cover2 a{ color: #000; position: relative;right: -235px; bottom: -436px;
+
+}
+.text_cover3 a{ color: #000; position: relative;right: 745px; bottom: 111px; 
+
+}
+.text_cover3 a:hover{
+  color: #03a9f4;
+}
+
 
 /*------------------------------
-book gallery
+book gallery * s1 *
 ------------------------------*/
-
-
-/* s1 */
 
 .gallery1{
   text-align: center;
@@ -977,6 +1049,34 @@ Pendahuluan
   color: #1bcee6;
 }
 
+.edit{
+  font-size: 16px; position: relative; top: 250px; left: -26px; 
+  color: #000;z-index: -1;
+}
+
+.t {
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 40px;
+  background: #eee;
+  top: 443px ;
+  left: 98px;
+  border-radius: 3px; 
+  z-index: -1;
+  }
+  .y {
+    position: absolute;
+    padding-left: 285px;
+    padding-top: 20px;
+    background: #eee;
+    top: 443px ;
+    left: 235px;
+    border-radius: 3px;z-index: 1;
+    
+    }
+
+
+
 
 /*------------------------------
 social
@@ -1047,7 +1147,7 @@ transition: all 1s;
 /*------------------------------
 Tablet
 ------------------------------*/
-@media (max-width: 1024px){
+@media (max-width: 998px){
   /* banner */
   .banner__image,
   .banner__copy{width: 50%;height: 50%}
@@ -1208,8 +1308,8 @@ left: 212px; padding-bottom: 300px; margin-bottom: 8px;
   text-align: center;
 
  }
-.gallery7__copy{max-width: 762px;margin: 0px auto; margin-top:-625px; background: #eee; padding: 1px 5px;position :relative; z-index: 1 ;background-image: url(); color: black;border-radius: 1px;
-  left: 510px; padding-bottom: 616px;
+.gallery7__copy{max-width: 92px;margin: 0px auto; margin-top:-625px; background: #eee; padding: 1px 5px;position :relative; z-index: 1 ;background-image: url(); color: black;border-radius: 1px;
+  left: 190px; padding-bottom: 616px;
 }
 
 /* external css: flickity.css */
@@ -1228,7 +1328,7 @@ body { font-family: sans-serif; }
   margin-right: 10px;
   background: rgba(140, 145, 140, 0.87);
   border-radius: 5px;
-  position: absolute;
+
   counter-increment: carousel-cell;
 }
 .carousel-cell h3{
@@ -1460,7 +1560,7 @@ left: 105px; padding-bottom: 177px;
  }
 .gallery4__copy{max-width: 200px;margin: 0px auto; margin-top: 7px; position :relative; z-index: 3 ;
   left: -80px; background-image: url(); border-radius: 23px;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
 }
 
 .gallery5{
@@ -1782,8 +1882,116 @@ position: relative; left: -44px;bottom: -14px; font-size: 7px;
             }
 
 
-      }
-  
+/*------------------------------
+archive
+------------------------------*/
+/*------------------------------
+font-face
+.image2{
+	float : left;
+	width : 12%;
+	margin-right: 10px;
+  border: 2px solid rgb(82, 76, 76);
+  position: relative; 
+  left: 180px;
+  bottom: -34px; z-index: 3;
+
+}
+
+.image2:hover{
+border:2px solid rgb(82, 76, 76); transform: scale(1.1);
+
+}
+
+img{
+	width: 100%;
+  height:auto;
+
+}
+
+.des2{
+padding: 10px;
+text-align: center;
+background-color: rgb(104, 100, 100);
+z-index: 2; 
+position: absolute;
+padding-left: 85px;
+left: -2px;
+top: 62px;
+}
+.des__caption2{  height: 100%; width: 100%; position: relative; z-index:1; padding: 0 20px ;}
+
+.des__text{
+position: relative;left: -1000px; bottom: -234px;
+
+}
+
+.cover_text{
+position: relative;left: 567px;top: 219px;color: #000;
+
+}
+.cover_text img{
+  width: 16px; height:18px;bottom: -40px; position: relative; left: 93px;
+}
+
+/*------------------------------
+text cover
+------------------------------*/
+.text_cover a{ color: #000; position: relative;left: -7px; bottom: -238px; font-size: 10px;
+
+}
+.text_cover2 a{ color: #000; position: relative;right: -245px; bottom: -376px;font-size: 10px;
+
+}
+
+.text_cover3 a{ color: #000; position: relative;right: -245px; bottom: -376px;font-size: 10px;
+
+}
+
+
+.single__copy6{display: block;margin: 0px auto; margin-top: 50px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;background-image: url(); color: black;padding-bottom: 523px;
+}
+.single__copy6 h1{
+ text-align: left; position: relative; top: 12px; left: 250px;
+}
+.single__copy6 h5{
+  text-align: left; position: relative; top: 3px; left: 250px;
+ }
+ .single__cop6 h5{
+  text-align: left; position: relative; top: 37px; left: 250px;
+ }
+
+
+.gallery8{
+  text-align: center;
+
+ }
+.gallery8__copy{max-width: 200px;margin: 0px auto; margin-top: -84px; background: #333; padding: 1px 20px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 0px;
+padding-bottom: 50px;left: -240px;top: -650px;  border:2px solid rgb(82, 76, 76);padding-left: 94px;
+
+}
+.gallery8__copy h1{
+  color: #eee;
+}
+
+.gallery9{
+  text-align: left;
+
+ }
+.gallery9__copy{max-width: 238px;margin: 0px auto; margin-top: -5px; background: #fff; padding: 1px 0px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 0px;
+;left: -525px;top: -570px;
+}
+.ga{
+  display: inline-block;
+  color: rgb(22, 20, 20);
+  text-align: left;
+  padding-top: -64px;
+  text-decoration: none;z-index: 2;
+ 
+}
+
+     
+}
       
 
 
