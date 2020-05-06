@@ -96,6 +96,52 @@ text-align: left;
 
 }
 
+.awal__text{
+  position: relative;bottom: 12px;margin: 2px;
+  shape-outside: initial;
+  padding: 1px;
+  width: 40px;
+  left: -10px ;
+  float: left;
+  height: 35px;
+  font: 6em monospace;
+  top: -125px;
+  font-weight: inherit;
+  
+}
+
+.single-img5{
+  width: 185px;
+  height: 175px;
+  left: 80px ;
+  float: left;
+  bottom: -60px;
+  padding: inherit;
+ 
+}
+
+.single-img6{
+  width: 385px;
+  height: 475px;
+  left: 50px ;
+  bottom: -120px;
+ position: relative;
+ 
+}
+
+.single-img7{
+  width: 200px;
+  height: 110px;
+  left: -40px ;
+  float: left;
+  bottom: 30px;
+  padding: inherit;
+  position: relative;
+
+}
+
+
+
 
 /*------------------------------
 arrow
@@ -545,7 +591,17 @@ background-color: white;
 z-index: 2;
 
 }
+
+.des3{ 
+  padding: 15px;
+text-align: center;
+background-color: white;
+z-index: 2;
+top: 33px;position: relative;
+ }
+
 .des__caption{ display: table; height: 100%; width: 100%; position: relative; z-index:1; padding: 0 20px ; }
+
 
 /*------------------------------
 header
@@ -642,6 +698,7 @@ contact
 .row__copy{max-width: 800px;margin: 0px auto; margin-top: -60px; background: #fff; padding: 10px 10px;position :relative; z-index: 1}
 .row__copy__meta{font-weight: bold;font-size: 18px;font-style: italic;}
 .row__copy__title{font-size: 32px;}
+.row__copy2{max-width: 800px;margin: 0px auto; margin-top: -60px; background: #fff; padding: 10px 10px;position :absolute; z-index: 1}
 
 /*------------------------------
 cover
@@ -755,7 +812,19 @@ single
   text-align: justify;
 }
 
-.single__copy8{max-width: 800px;margin: 0px auto; margin-top: 0px; background: #eee; padding: 20px 40px;position :relative; z-index: 3 ; color: black; text-align: center;padding-bottom: 123px;
+.single__copy8{width: 1100px;margin: 0px auto; margin-top: auto; background: #eee; padding: 20px 40px;position :relative; z-index: 1 ; color: black; text-align: center;
+clear:both;margin-right: auto;margin-left: auto; column-count: 2;
+column-gap: 10px; text-align: justify;top: -130px;height: 100%;
+
+}
+.single__copy8 h5{
+  text-align: justify;position: relative; left: 11px; bottom: -1px;
+  font-family: monospace; font-weight: inherit;
+}
+.single8 h1{
+  font-family: monospace; text-align: center;font-weight: inherit;
+  padding-top: 35px;font-size: 3em;position: relative;top: -130px;
+ 
 }
 
 /*------------------------------
@@ -1182,14 +1251,7 @@ Pendahuluan
       transition: .9s;
     }
 
-.single-img6{
-  width: 385px;
-  height: 475px;
-  left: 50px ;
-  bottom: -120px;
- position: relative;
- 
-}
+
 /*------------------------------
 social
 ------------------------------*/
@@ -1255,6 +1317,51 @@ transform: rotate(360deg);
 transition: all 1s;
 }
 
+/*------------------------------
+collection
+------------------------------*/
+
+
+
+
+.position-tester{
+  
+ 
+  padding: 0 20px;
+  top: 582px;
+  z-index: 2;
+  position: sticky;
+  left: -230px;
+  height: 100%;
+  text-align: left;
+ 
+}
+
+.collection{
+ 
+ 
+border-radius: 10px;
+width: 234px;
+height: 120%;
+background: rgb(252, 106, 90);
+border-top: 1px solid rgba(255,255,255,.2);
+border-bottom: 1px solid rgba(255,255,255,.2);
+position: sticky;
+top: -35px;
+z-index: 1;
+left: 1230px;
+}
+.collection p{
+  top: 20px;padding: 5px; margin: 10px; text-align: left;
+  color: white;padding-left: 33px;
+}
+
+.sing5{
+  text-align: center;
+ }
+
+.sing__copy5{max-width: 800px;margin: 0px auto; margin-top: 23px;  padding: 20px 40px;position :relative; z-index: 3 ; color: black; text-align: center;
+}
 
 /*------------------------------
 Tablet
@@ -2126,6 +2233,8 @@ font-family: Fourth; src: url(Fourth-Edition.otf;)}
   font-family: Vladimir Script; src: url(vladimir_script_regular.ttf;)}
 
 
+  @font-face {
+    font-family: NERVOUSM1; src: url(NERVOUSM.otf;)}
 
 
 
