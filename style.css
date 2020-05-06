@@ -622,9 +622,6 @@ contact
 
 }
 
-.catatan p{
-text-align: justify;
-}
 /* nitip
 <li class="angellist">
 <a href="Article.html">
@@ -1185,7 +1182,14 @@ Pendahuluan
       transition: .9s;
     }
 
-
+.single-img6{
+  width: 385px;
+  height: 475px;
+  left: 50px ;
+  bottom: -120px;
+ position: relative;
+ 
+}
 /*------------------------------
 social
 ------------------------------*/
