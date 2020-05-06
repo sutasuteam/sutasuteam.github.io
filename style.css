@@ -1559,7 +1559,10 @@ text-align: center;  padding-left: 80px;
 
   }
 
-
+ 
+.single-img6{
+  height: 123px; width:123px ;top: -3px;
+  }
 
 /* external css: flickity.css 2 */
 
@@ -1728,6 +1731,9 @@ transform: rotate(360deg);
 transition: all 1s;
 }
 
+.single-img6{
+  height: 123px; width:123px ;top: -3px;
+  }
 
 /* cover */
 .cover{height:100%;}
