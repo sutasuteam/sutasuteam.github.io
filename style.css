@@ -1716,6 +1716,47 @@ left: 1230px;
 .sing__copy5{max-width: 800px;margin: 0px auto; margin-top: 23px;  padding: 20px 40px;position :relative; z-index: 3 ; color: black; text-align: center;
 }
 
+.Button3{
+  margin-top: 30px;
+  margin-left: 5px;
+  height:12px;
+  top: -150px; position: relative;
+  background-color: white;
+  left: -5px;
+  width: 60px;
+  
+}
+
+
+.btn3{
+  border: 1px solid #4b4b4e;text-decoration: none;
+  padding: 0px 10px;font-size: 3px;
+  text-transform: uppercase;color: black;
+  margin: -8px;padding: 3px;
+}
+.btn4{
+  border: 1px solid #4b4b4e;text-decoration: none;
+  padding: 0px 10px;font-size: 3px;
+  text-transform: uppercase;color: black;
+  margin: -6px;
+}
+
+.btn-one{
+  background-color: rgb(44, 136, 211);font-family: "Roboto",sans-serif;padding-top: 3px;padding-bottom: 1px; padding-left: 18px;padding-right: 18px;
+}
+
+
+.btn-two{
+  font-family: "Roboto",sans-serif;padding-bottom: 1px; padding-left: 16px;padding-right: 16px;
+}
+.gabut{
+  top: -123px;
+  left: -2px;
+}
+.single-img6{
+  width: 230px;
+}
+
 }
 
 
@@ -1726,9 +1767,6 @@ Smar phone
 @media (max-width: 768px){
 
 
-  .text_cover2{
-
-  }
 
   .header{position:fixed; z-index: 100;width:100%}
   .header__icon-bar{display: block;}
@@ -1848,7 +1886,7 @@ transition: all 1s;
 .cover{height:100%;}
 
 /* cards */
-.card{width: 97%; margin: 5%}
+.card{width: 95%; margin: 5%}
 
 /* banner */
 .banner{height: 100%;}
@@ -2500,14 +2538,60 @@ font-size: 8px;height: 20px;
  
 }
 
-.single-img6{
-  width: 385px;
-  height: 475px;
-  left: 50px ;
-  bottom: -120px;
- position: relative;
- 
+.Button3{
+  margin-top: 30px;
+  margin-left: 5px;
+  height:12px;
+  top: -100px; position: relative;
+  background-color: white;
+  left: 24px;
+  width: 32px;
+  
 }
+
+
+.btn3{
+  border: 1px solid #4b4b4e;text-decoration: none;
+  padding: 0px 10px;font-size: 3px;
+  text-transform: uppercase;color: black;
+  margin: -8px;padding: 2px;
+}
+.btn4{
+  border: 1px solid #4b4b4e;text-decoration: none;
+  padding: 0px 10px;font-size: 3px;
+  text-transform: uppercase;color: black;
+  margin: -6px;
+}
+
+
+
+.btn-one{
+  background-color: rgb(44, 136, 211);font-family: "Roboto",sans-serif;padding-top: 2px;padding-bottom: 1px; padding-left: 4px;padding-right: 4px;
+}
+
+.btn-one:hover{
+  color: black;
+}
+.btn-two{
+  font-family: "Roboto",sans-serif;padding-bottom: 1px; padding-left: 2px;padding-right: 2px;
+}
+
+.btn-two:hover{
+  background-color: rgb(44, 136, 211);
+  transition: all 0.5s ease-in; color: black;
+}
+
+.gabut{
+  position: relative;
+  top: -75px;
+  left: 28px;
+  font-size: 6px;
+ }
+ 
+.single-img6{
+  height: 123px; width:110px ;top: 50px;left: -10px;
+
+  }
 
 .single-img7{
   width: 130px;
