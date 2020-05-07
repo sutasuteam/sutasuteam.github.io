@@ -1054,10 +1054,14 @@ position: relative;text-align: center;left: -16px;
 .des__caption2{  height: 100%; width: 100%; position: relative; z-index:1; padding: 0 20px ;}
 
 .des__text{ height: 134px; width:300px; text-align: justify;
-position: absolute;left: 332px; bottom: 62px;
-left: 325px;
+position: absolute; bottom: 26px;
+left: 328px;
 }
-.des__text h5{height: 234px; width:300px; text-align: justify; position: absolute;top: -19px;
+.des__text h5{height: 234px; width:300px; text-align: justify; position: absolute;top: -55px;
+left: 0px;
+}
+.des__text p{
+  height: 234px; width:300px; text-align: justify; position: absolute;top: 0px;
 left: 0px;
 }
 
@@ -1079,6 +1083,8 @@ left: 0px;
   width: 0px;
   margin-left: -20px;
   margin-top: -150px;
+  top: 120px;
+  position: relative;
   }
   .garis_verikal3{
     border-left: 3px #03a9f4 solid;
@@ -2253,19 +2259,26 @@ position: relative; left: -44px;bottom: -14px; font-size: 7px;
               position: relative; z-index: 2;font-size: 8px;
             }
 
+            .single__copy7{margin: 0px auto;  background: #eee; 
+              position :relative;  z-index: 3;
+               ;top: -192px;  padding-top: 15px;
+               }
 
-
+  .pics{position: relative; z-index: 2;top: -85px;
+    padding-left: -134px;width: 123px;
+                
+                }
 
 /*------------------------------
 image2
 ------------------------------*/
 .image2{
 	float : left;
-	width : 10%;
+	width : 12%;
 	margin-right: 5px;
   border: 2px solid #4b4b4e;
   position: relative; 
-  left: -27px;
+  left: 20px;
   bottom: -14px; z-index: 3;
   font-size: 15px;
 
@@ -2283,7 +2296,7 @@ img{
 }
 
 .ukuran { position: relative; top: 1px;
-  width: 5px;
+  width: 3px;
 }
 .ukuran1 { position: relative; top: -228px;
   width: 35px;left: 34px;z-index: 4;height: 35px;
@@ -2299,38 +2312,42 @@ img{
   background-color: #4b4b4e;
   z-index: 2; 
   position: relative;
-  left: px;
-  top: -18px;
+  left: -10px;
+  top: -10px;
   color: transparent;
-  height: 10px;
-  width: 50px;
+  height: 5px;
+  width: 20px;
   margin-bottom: -20px;
   }
   .des2 h5{
-   color: #eee;top: 10px;
+   color: rgb(20, 6, 6);top: 10px;
   position: relative;text-align: center;font-size: 3px;
-  width: 334px;margin-left: -238px;
+  width: 25px;margin-left: -238px;padding-left: -423px;
+
   }
   
   .des__caption2{  height: 40%; width: 40%; position: relative; z-index:1; padding: 0 20px ;left: -23px;
   }
   
-  .des__text{ height: 134px; width:70px; text-align: justify;
-  position: absolute;left: -32px; bottom: 352px;font-size: 8px;
-
+  .des__text{ height: 134px; width:170px; text-align: justify;
+  position: relative;left: 22px; bottom: -52px;font-size: 6px;
+  left: -63px;
   }
-  .des__text h5{height: 134px; width:70px; text-align: justify; position: absolute;top: -19px;font-size: 8px;
-  left: 0px;
+  .des__text h5{height: 134px; width:70px; text-align: justify; position: relative;top: -119px;font-size: 6px;
+  left: -23px;padding-left: -323px;
   }
+  .des__text p{height: 134px; width:170px; text-align: justify; position: relative;top: -119px;font-size: 6px;
+    left: 103px;
+    }
   
-    .des__text1{ height: 34px; width:30px; text-align: justify;
-      position: absolute;left: 110px; bottom: -632px;z-index:3;
-      font-size: 8px;
+    .des__text1{ height: 134px; width:130px; text-align: justify;
+      position: absolute;left: 110px; bottom: -432px;z-index:3;
+      font-size: 6px;
       }
-      .des__text1 h5{height: 34px; width:30px; text-align: justify; position: absolute;
-      left: 0px;font-size: 8px;
+      .des__text1 h5{height: 134px; width:130px; text-align: justify; position: absolute;
+      left: 0px;font-size: 6px;
       }
-      .des__text1 p{ text-align: justify;font-size: 8px;
+      .des__text1 p{ text-align: justify;font-size: 6px;
         position: absolute; top: 55px; padding-left: -330px;
         height: 34px; width:130px
       
@@ -2353,31 +2370,33 @@ img{
   
         
       .edit{
-        font-size: 16px; position: relative; top: 385px; left: -43px; 
-        color: #000;z-index: -1;padding-left: 33px;
+        font-size: 3px; position: relative; top: 315px; left: -52px; 
+        color: #000;z-index: -1;
       }
       
       
       .t {
         position: absolute;
-        padding-top: 20px;
-        padding-left: 22px;
+        padding-top: 7px;
+        padding-left: 1px;
         background: #eee;
-        top: 550px ;
-        left: 87px;
-        border-radius: 3px; 
+        top: 585px ;
+        left: 11px;
+        
         z-index: -1;
-        width: 35px;
+        width: 15px;
+       
         }
         .y {
           position: absolute;
-          padding-left: 185px;
-          padding-top: 20px;
+          padding-left: 85px;
+          padding-top: 7px;
           background: #eee;
-          top: 550px ;
-          left: 132px;
+          top: 585px ;
+          left: 45px;
           border-radius: 3px;z-index: 1;
-          width: 35px;
+          width: 15px;
+       
           }
       
           .img-area{
@@ -2386,10 +2405,12 @@ img{
             flex-direction: row;
             justify-content: left;
             align-items: left;
-           width: 184px;z-index: 4;
+           width: 44px;z-index: 4;
+           
           }
-          .single-img{width:16px ; height: 16px;
+          .single-img{width:12px ; height: 16px;
             padding: 0 0px 0px;
+            
       
           }
           .single-img :hover{
@@ -2405,14 +2426,14 @@ img{
             transition: .9s;
           }
           .single-img2{position: relative; 
-            width: 8px;left: 63px;top: -46px;
+            width: 8px;left: 63px;top: -16px;
           }
           .single-2 :hover{
             opacity: .5;
             transition: .9s;
           }
           .single-img3{position: relative;
-            width: 8px;left: 125px;top: -93px;
+            width: 8px;left: 125px;top: -33px;
           }
           .single-img3 :hover{
             opacity: .5;
@@ -2421,42 +2442,43 @@ img{
   
   .cover_text{
   position: relative;left: 567px;top: 219px;color: #000;
-  
+
   }
   .cover_text img{
     width: 16px; height:18px;bottom: -40px; position: relative; left: 93px;
   }
   
-  .pics{position: relative; z-index: 2;top: -85px;
+  .pics{position: relative; z-index: 2;top: -135px;
   padding-left: -4px;width: 120px;
-  
+  z-index: 5;font-size: 6px;
   }
 
 /*------------------------------
 text cover
 ------------------------------*/
-.text_cover a{ color: #000; position: relative;left: -7px; bottom: 638px; font-size: 10px;
+.text_cover a{ color: #000; position: relative;left: -80px; bottom: -300px; font-size: 3px;
 
 }
-.text_cover2 a{ color: #000; position: relative;right: 35px; bottom: -776px;font-size: 5px;width: 34px;height: 23px;
+.text_cover2 a{ color: #000; position: relative;right: -20px; bottom: -576px;font-size: 3px;width: 34px;height: 23px;
 }
 
-.text_cover3 a{ color: #000; position: relative;right: -15px; bottom: 76px;font-size: 7px;width: 80px;
+.text_cover3 a{ color: #000; position: relative;right: 105px; bottom: 76px;font-size: 3px;width: 80px; 
 
 }
 
 
-.single__copy6{display: block;margin: 0px auto; margin-top: -60px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;padding-bottom: 623px;
+.single__copy6{display: block;margin: 0px auto; margin-top: -80px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;padding-bottom: 623px;
 }
 .single__copy6 h1{
- text-align: left; position: relative; top: 12px; left: -80px;
- font-size: 15px;
+ text-align: left; position: relative; top: 12px; left: -210px;
+ font-size: 9px;
 }
 .single__copy6 h5{
   text-align: left; position: relative; top: 3px; left: 250px;
  }
  .single__cop6 h5{
-  text-align: left; position: relative; top: 17px; left: -40px;
+  text-align: left; position: relative; top: 17px; left: -90px;
+  font-size: 6px;
  }
 
 
@@ -2464,9 +2486,9 @@ text cover
   text-align: center;
 
  }
-.gallery8__copy{max-width: 180px;margin: 0px auto; margin-top: -84px; background: #333; padding: 1px 20px;position :relative; z-index: 3 ;color: black; border-radius: 0px;
-padding-bottom: 50px;left: -275px;top: -525px;  border:2px solid rgb(82, 76, 76);padding-left: 54px;
-font-size: 8px;height: 20px;
+.gallery8__copy{max-width: 80px;margin: 0px auto; margin-top: -84px; background: #333; padding: 1px 20px;position :relative; z-index: 3 ;color: black; border-radius: 0px;
+padding-bottom: 20px;left: -75px;top: -525px;  border:2px solid rgb(82, 76, 76);padding-left: 10px;
+font-size: 8px;height: 10px;padding-right: 10px;
 }
 .gallery8__copy h1{
   color: #eee;
@@ -2495,8 +2517,8 @@ font-size: 8px;height: 20px;
  }
 
 .enjoy{
-  color: black; position: relative;bottom: 155px;z-index: 4;
-  padding-left: 26px;height: 34px;width: 50px;font-size: 8px;
+  color: black; position: relative;bottom: -55px;z-index: 4;
+  padding-left: 26px;height: 34px;width: 50px;font-size: 6px;
 }
 
  
@@ -2613,6 +2635,48 @@ font-size: 8px;height: 20px;
   padding-top: 35px;font-size: 1em;position: relative;top: -130px;
  
 }
+
+
+
+/*------------------------------
+single archive
+------------------------------*/
+
+.content{
+  position: relative;top: 0px;left: 30px;
+ 
+}
+
+
+.content h1{
+position: absolute; 
+transform: translate(-50%, -50%);
+font-size: 2em;
+}
+.content h1:nth-child(1)
+  {
+    color: transparent ;
+    -webkit-text-stroke: 1px #03a9f4;
+  }
+  .content h1:nth-child(2)
+  {
+    color: #03a9f4 ;
+    animation: animate 4s ease-in-out infinite;
+  }
+  @keyframes animate{
+    0%,100%
+    {
+      clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 
+      100% 100%, 0% 100%);
+    }
+    50%
+    {
+      clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 
+      100% 100%, 0% 100%);
+    }
+  }
+
+
 
 /*------------------------------
 collection
