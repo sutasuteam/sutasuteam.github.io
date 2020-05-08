@@ -1251,7 +1251,7 @@ Pendahuluan
 }
 
 .edit{
-  font-size: 16px; position: relative; top: 255px; left: -43px; 
+  font-size: 16px; position: relative; top: 255px; left: -31px; 
   color: #000;z-index: -1;padding-left: 33px;
 }
 
@@ -2259,14 +2259,18 @@ position: relative; left: -44px;bottom: -14px; font-size: 7px;
               position: relative; z-index: 2;font-size: 8px;
             }
 
-            .single__copy7{margin: 0px auto;  background: #eee; 
+            .single__copy7{margin: 0px auto;  
+              background: #eee; 
               position :relative;  z-index: 3;
-               ;top: -192px;  padding-top: 15px;
+               ;top: -92px;  padding-top: 15px;
                }
 
   .pics{position: relative; z-index: 2;top: -85px;
     padding-left: -134px;width: 123px;
                 
+                }
+                .pics h2{
+                  font-size: 7px;
                 }
 
 /*------------------------------
@@ -2278,8 +2282,8 @@ image2
 	margin-right: 5px;
   border: 2px solid #4b4b4e;
   position: relative; 
-  left: 20px;
-  bottom: -14px; z-index: 3;
+  left: 80px;
+  bottom: -14px; z-index: 5;
   font-size: 15px;
 
 }
@@ -2301,8 +2305,8 @@ img{
 .ukuran1 { position: relative; top: -228px;
   width: 35px;left: 34px;z-index: 4;height: 35px;
 }
-.ukuran3 { position: relative; top: 2px;
-  width: 20px;
+.ukuran3 { position: relative; top: 0px;
+  width: 3px;
 }
 
 
@@ -2310,63 +2314,67 @@ img{
   padding: 0px;
   text-align: center;
   background-color: #4b4b4e;
-  z-index: 2; 
+  z-index: 5; 
   position: relative;
-  left: -10px;
+  left: -2px;
   top: -10px;
   color: transparent;
-  height: 5px;
-  width: 20px;
-  margin-bottom: -20px;
+  height: 6px;
+  width: 27px;
+  margin-bottom: -12px;
   }
   .des2 h5{
-   color: rgb(20, 6, 6);top: 10px;
+   color: #eee;top: 10px;
   position: relative;text-align: center;font-size: 3px;
-  width: 25px;margin-left: -238px;padding-left: -423px;
+  width: 25px;margin-left: -246px;padding-left: -423px;
 
   }
   
-  .des__caption2{  height: 40%; width: 40%; position: relative; z-index:1; padding: 0 20px ;left: -23px;
+  .des__caption2{  height: 40%; width: 40%; position: relative; z-index:1; padding: 0 20px ;left: -23px;z-index: 5;
   }
   
-  .des__text{ height: 134px; width:170px; text-align: justify;
-  position: relative;left: 22px; bottom: -52px;font-size: 6px;
-  left: -63px;
+  .des__text{ height: 134px; width:120px; text-align: justify;
+  position: relative;left: 22px; bottom: -67px;font-size: 3px;
+  left: -82px;z-index: 5;
   }
-  .des__text h5{height: 134px; width:70px; text-align: justify; position: relative;top: -119px;font-size: 6px;
-  left: -23px;padding-left: -323px;
+  .des__text h5{height: 134px; width:170px; text-align: justify; position: relative;top: -119px;font-size: 3px;
+  left: -123px;padding-left: -303px;
   }
-  .des__text p{height: 134px; width:170px; text-align: justify; position: relative;top: -119px;font-size: 6px;
-    left: 103px;
+  .des__text p{height: 134px; width:75px; text-align: justify; position: relative;top: -84px;font-size: 3px;
+    left: 250px;
     }
   
-    .des__text1{ height: 134px; width:130px; text-align: justify;
-      position: absolute;left: 110px; bottom: -432px;z-index:3;
-      font-size: 6px;
+    .des__text1{ height: 134px; width:170px; text-align: justify;
+      position: absolute;left: 108px; bottom: -332px;z-index:3;
+      font-size: 3px;
       }
-      .des__text1 h5{height: 134px; width:130px; text-align: justify; position: absolute;
-      left: 0px;font-size: 6px;
+      .des__text1 h5{height: 134px; width:30px; text-align: justify; position: absolute;
+      left: 0px;font-size: 3px;top: 20px;
       }
-      .des__text1 p{ text-align: justify;font-size: 6px;
-        position: absolute; top: 55px; padding-left: -330px;
-        height: 34px; width:130px
+      .des__text1 p{ text-align: justify;font-size: 3px;
+        position: absolute; top: 39px; padding-left: -330px;
+       width: 70px;
       
         }
-   .garis_verikal2{
-    border-left: 3px #03a9f4 solid;
-    height: 52px;
-    width: 0px;
-    margin-left: -20px;
-    margin-top: -150px;
-    }
-    .garis_verikal3{
-      border-left: 3px #03a9f4 solid;
-      height: 52px;
-      width: 0px;
-      margin-left: -20px;
-      margin-top: -150px;
-      position: relative;top: 175px;
-      }
+        .garis_verikal2{
+          border-left: 1px #03a9f4 solid;
+          height: 73px;
+          width: 45px;
+          margin-left: 90px;
+          margin-top: -75px;
+          position: relative;top: -163px;z-index: 6;
+          left: 150px;
+        
+          }
+          .garis_verikal3{
+            border-left: 1px #03a9f4 solid;
+            height: 73px;
+            width: 45px;
+            margin-left: -10px;
+            margin-top: -150px;
+            position: relative;top: 175px;
+            }
+          
   
         
       .edit{
@@ -2405,10 +2413,10 @@ img{
             flex-direction: row;
             justify-content: left;
             align-items: left;
-           width: 44px;z-index: 4;
+           width: 54px;z-index: 4;
            
           }
-          .single-img{width:12px ; height: 16px;
+          .single-img{width:17px ; height: 16px;
             padding: 0 0px 0px;
             
       
@@ -2418,22 +2426,22 @@ img{
             transition: .9s;
           }
       
-          .single-img1{position: relative; top: -50px;
-            width: 8px;left: 153px;
+          .single-img1{position: relative; top: -18px;
+            width: 8px;left: 200px;
           }
           .single-img1 :hover{
             opacity: .5;
             transition: .9s;
           }
           .single-img2{position: relative; 
-            width: 8px;left: 63px;top: -16px;
+            width: 8px;left: 43px;top: -17px;
           }
           .single-2 :hover{
             opacity: .5;
             transition: .9s;
           }
           .single-img3{position: relative;
-            width: 8px;left: 125px;top: -33px;
+            width: 8px;left: 90px;top: -34px;
           }
           .single-img3 :hover{
             opacity: .5;
@@ -2448,9 +2456,9 @@ img{
     width: 16px; height:18px;bottom: -40px; position: relative; left: 93px;
   }
   
-  .pics{position: relative; z-index: 2;top: -135px;
-  padding-left: -4px;width: 120px;
-  z-index: 5;font-size: 6px;
+  .pics{position: relative; z-index: 3;top: -335px;
+  padding-left: 10px;width: 70px;
+  font-size: 5px;
   }
 
 /*------------------------------
@@ -2459,26 +2467,26 @@ text cover
 .text_cover a{ color: #000; position: relative;left: -80px; bottom: -300px; font-size: 3px;
 
 }
-.text_cover2 a{ color: #000; position: relative;right: -20px; bottom: -576px;font-size: 3px;width: 34px;height: 23px;
+.text_cover2 a{ color: #000; position: relative;right: -52px; bottom: -576px;font-size: 3px;width: 34px;height: 23px;
 }
 
-.text_cover3 a{ color: #000; position: relative;right: 105px; bottom: 76px;font-size: 3px;width: 80px; 
+.text_cover3 a{ color: #000; position: relative;right: 122px; bottom: 52px;font-size: 3px;width: 280px; height: 21px; z-index: 4;
 
 }
 
 
-.single__copy6{display: block;margin: 0px auto; margin-top: -80px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;padding-bottom: 623px;
+.single__copy6{display: block;margin: 0px auto; margin-top: -80px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;padding-bottom: 423px;
 }
 .single__copy6 h1{
- text-align: left; position: relative; top: 12px; left: -210px;
- font-size: 9px;
+ text-align: left; position: relative; top: -2px; left: -202px;
+ font-size: 9px;width: 403px;
 }
 .single__copy6 h5{
   text-align: left; position: relative; top: 3px; left: 250px;
  }
  .single__cop6 h5{
-  text-align: left; position: relative; top: 17px; left: -90px;
-  font-size: 6px;
+  text-align: left; position: relative; top: 7px; left: -204px;
+  font-size: 4px;
  }
 
 
@@ -2487,7 +2495,7 @@ text cover
 
  }
 .gallery8__copy{max-width: 80px;margin: 0px auto; margin-top: -84px; background: #333; padding: 1px 20px;position :relative; z-index: 3 ;color: black; border-radius: 0px;
-padding-bottom: 20px;left: -75px;top: -525px;  border:2px solid rgb(82, 76, 76);padding-left: 10px;
+padding-bottom: 20px;left: -109px;top: -435px;  border:2px solid rgb(82, 76, 76);padding-left: 10px;
 font-size: 8px;height: 10px;padding-right: 10px;
 }
 .gallery8__copy h1{
@@ -2498,27 +2506,27 @@ font-size: 8px;height: 10px;padding-right: 10px;
   text-align: left;
 
  }
-.gallery9__copy{max-width: 238px;margin: 0px auto; margin-top: -5px; background: #fff; padding: 1px 0px;position :relative; z-index: 3 ;background-image: url(); color: black; border-radius: 0px;
-;left: -525px;top: -570px;
+.gallery9__copy{max-width: 8px;margin: 0px auto; margin-top: -2px; background: #fff; padding: 1px 0px;position :relative; z-index: 3 ; border-radius: 0px;
+left: -145px;top: -500px;font-size: 3px;
 }
 .ga{
   display: inline-block;
   color: rgb(22, 20, 20);
   text-align: left;
-  padding-top: -64px;
+  padding-top: -4px;
   text-decoration: none;z-index: 2;
- 
+ width: 30px;
 }
-.gallery10__copy{max-width: 138px;margin: 0px auto; margin-top:39px; background: #fff; 
-  padding: 1px 0px;position :relative; z-index: 1 ; border-radius: 0px;left: -225px;top: -540px;
+.gallery10__copy{max-width: 58px;margin: 0px auto; margin-top:39px; background: #fff; 
+  padding: 1px 0px;position :relative; z-index: 3 ; border-radius: 0px;left: -120px;top: -520px; font-size: 3px;
 }
 .gallery10__copy a{
   text-align: left;position: relative; width: 130px;display: block;
  }
 
 .enjoy{
-  color: black; position: relative;bottom: -55px;z-index: 4;
-  padding-left: 26px;height: 34px;width: 50px;font-size: 6px;
+  color: black; position: relative;bottom: -33px;z-index: 4;
+  padding-left: 10px;height: 34px;width: 50px;font-size: 6px;
 }
 
  
@@ -2643,8 +2651,8 @@ single archive
 ------------------------------*/
 
 .content{
-  position: relative;top: 0px;left: 30px;
- 
+  position: relative;left: 29px;
+  top: -1px;
 }
 
 
@@ -2723,6 +2731,8 @@ left: 1230px;
 
 .sing__copy5{max-width: 800px;margin: 0px auto; margin-top: 23px;  padding: 20px 40px;position :relative; z-index: 3 ; color: black; text-align: center;
 }
+
+
 
 }
       
