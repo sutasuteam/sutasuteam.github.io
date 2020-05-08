@@ -2770,7 +2770,7 @@ text cover
 }
 
 
-.single__copy6{display: block;margin: 0px auto; margin-top: -80px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;padding-bottom: 223px;
+.single__copy6{display: block;margin: 0px auto;  background: #fff;position :relative; z-index: 3 ;padding-bottom: 223px; top: 33px;
 }
 .single__copy6 h1{
  text-align: left; position: relative; top: -2px; left: -202px;
@@ -3027,9 +3027,9 @@ left: 1230px;
 .sing__copy5{max-width: 800px;margin: 0px auto; margin-top: 23px;  padding: 20px 40px;position :relative; z-index: 3 ; color: black; text-align: center;
 }
 
-.single__copy7{margin: 0px auto;  background: rgb(185, 162, 162); 
+.single__copy7{margin: 0px auto;  background: rgb(231, 17, 17); 
   position :relative;  z-index: 3;
-   top: 232px;  padding-top: 15px;
+   top: -72px;  padding-top: 15px;
    }
 
 
