@@ -1690,7 +1690,7 @@ Tablet
           ------------------------------*/
           .image2{
             float : left;
-            width : 15%;
+            width : 13%;
             margin-right: 10px;
             border: 2px solid #4b4b4e;
             position: relative; 
@@ -1733,13 +1733,13 @@ Tablet
           top: -60px;
           color: transparent;
           height: 42px;
-          width: 188px;
+          width: 120px;
           padding-left: 30px;
           margin-bottom: -60px;
           }
           .des2 h5{
            color: rgb(238, 238, 238);top: 12px;
-          position: relative;text-align: center;left: -16px;
+          position: relative;text-align: center;left: -16px; font-size: 10px;
           }
           
           .des__caption2{  height: 100%; width: 100%; position: relative; z-index:1; padding: 0 20px ;}
@@ -1756,8 +1756,8 @@ Tablet
           left: 0px;
           }
           
-            .des__text1{ height: 134px; width:300px; text-align: justify;
-              position: absolute;left: 820px; bottom: -232px;z-index:3;
+            .des__text1{ height: 134px; width:280px; text-align: justify;
+              position: absolute;left: 720px; bottom: -282px;z-index:3;
               
               }
               .des__text1 h5{height: 234px; width:300px; text-align: justify; position: absolute;
@@ -3027,6 +3027,10 @@ left: 1230px;
 .sing__copy5{max-width: 800px;margin: 0px auto; margin-top: 23px;  padding: 20px 40px;position :relative; z-index: 3 ; color: black; text-align: center;
 }
 
+.single__copy7{margin: 0px auto;  background: rgb(129, 35, 35); 
+  position :relative;  z-index: 3;
+   top: -92px;  padding-top: 15px;
+   }
 
 
 }
