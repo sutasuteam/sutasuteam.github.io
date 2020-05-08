@@ -2456,7 +2456,7 @@ img{
     width: 16px; height:18px;bottom: -40px; position: relative; left: 93px;
   }
   
-  .pics{position: relative; z-index: 3;top: -335px;
+  .pics{position: relative; z-index: 3;top: -100px;
   padding-left: 10px;width: 70px;
   font-size: 5px;
   }
@@ -2475,7 +2475,7 @@ text cover
 }
 
 
-.single__copy6{display: block;margin: 0px auto; margin-top: -80px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;padding-bottom: 423px;
+.single__copy6{display: block;margin: 0px auto; margin-top: -80px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;padding-bottom: 223px;
 }
 .single__copy6 h1{
  text-align: left; position: relative; top: -2px; left: -202px;
