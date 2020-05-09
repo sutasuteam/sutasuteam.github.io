@@ -2732,7 +2732,7 @@ img{
           }
       
           .single-img1{position: relative; top: -18px;
-            width: 8px;left: 200px;
+            width: 8px;left: 590px;
           }
           .single-img1 :hover{
             opacity: .5;
@@ -2830,8 +2830,8 @@ left: -145px;top: -500px;font-size: 3px;
  }
 
 .enjoy{
-  color: black; position: relative;bottom: -33px;z-index: 4;
-  padding-left: 10px;height: 34px;width: 50px;font-size: 6px;
+  color: black; position: absolute;bottom: -479px;z-index: 4;
+  padding-left: 10px;height: 34px;width: 50px;font-size: 6px; 
 }
 
  
