@@ -2640,7 +2640,7 @@ img{
   
   .des__text{ height: 134px; width:120px; text-align: justify;
   position: relative;left: 22px; bottom: -67px;font-size: 3px;
-  left: -82px;z-index: 5;
+  left: -52px;z-index: 5;
   }
   .des__text h5{height: 134px; width:170px; text-align: justify; position: relative;top: -119px;font-size: 3px;
   left: -123px;padding-left: -303px;
@@ -2650,7 +2650,7 @@ img{
     }
   
     .des__text1{ height: 134px; width:170px; text-align: justify;
-      position: absolute;left: 108px; bottom: -332px;z-index:3;
+      position: absolute;left: 268px; bottom: -332px;z-index:3;
       font-size: 3px;
       }
       .des__text1 h5{height: 134px; width:30px; text-align: justify; position: absolute;
@@ -2761,9 +2761,9 @@ img{
     width: 16px; height:18px;bottom: -40px; position: relative; left: 93px;
   }
   
-  .pics{position: relative; z-index: 3;top: -100px;
+  .pics{position: relative; z-index: 3;top: -200px;
   padding-left: 10px;width: 70px;
-  font-size: 5px;
+  font-size: 5px;left: 100px;
   }
 
 /*------------------------------
@@ -2780,7 +2780,7 @@ text cover
 }
 
 
-.single__copy6{display: block;margin: 0px auto; margin-top: -80px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;padding-bottom: 223px;margin-bottom: -3px;
+.single__copy6{display: block;margin: 0px auto; margin-top: -80px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;padding-bottom: 283px;margin-bottom: -3px;left: 100px;
 }
 .single__copy6 h1{
  text-align: left; position: relative; top: -2px; left: -202px;
@@ -2800,7 +2800,7 @@ text cover
 
  }
 .gallery8__copy{max-width: 80px;margin: 0px auto; margin-top: -84px; background: #333; padding: 1px 20px;position :relative; z-index: 3 ;color: black; border-radius: 0px;
-padding-bottom: 20px;left: -307px;top: -205px;  border:2px solid rgb(82, 76, 76);padding-left: 10px;
+padding-bottom: 20px;left: -207px;top: -278px;  border:2px solid rgb(82, 76, 76);padding-left: 10px;
 font-size: 8px;height: 10px;padding-right: 10px;
 display: flex;
 }
@@ -2813,7 +2813,7 @@ display: flex;
 
  }
 .gallery9__copy{max-width: 8px;margin: 0px auto; margin-top: -2px; background: #fff; padding: 1px 0px;position :relative; z-index: 3 ; border-radius: 0px;
-left: -335px;top: -270px;font-size: 3px;display: flex;
+left: -235px;top: -340px;font-size: 3px;
 
 }
 .ga{
@@ -2825,7 +2825,7 @@ left: -335px;top: -270px;font-size: 3px;display: flex;
  width: 30px;
 }
 .gallery10__copy{max-width: 58px;margin: 0px auto; margin-top:39px; background: #fff; 
-  padding: 1px 0px;position :relative; z-index: 3 ; border-radius: 0px;left: -315px;top: -270px; font-size: 3px;
+  padding: 1px 0px;position :relative; z-index: 3 ; border-radius: 0px;left: -215px;top: -370px; font-size: 3px;
 }
 .gallery10__copy a{
   text-align: left;position: relative; width: 130px;display: block;
@@ -2836,7 +2836,9 @@ left: -335px;top: -270px;font-size: 3px;display: flex;
   padding-left: 10px;height: 34px;width: 50px;font-size: 6px;
 }
 
- 
+ .container{
+   width: 500px; 
+ }
 
 .single__copy8{
   font-size: 8px;width: 360px;column-count: 1;
