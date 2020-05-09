@@ -2639,18 +2639,18 @@ img{
   }
   
   .des__text{ height: 134px; width:120px; text-align: justify;
-  position: relative;left: 22px; bottom: -67px;font-size: 3px;
+  position: absolute;left: 22px; bottom: -67px;font-size: 3px;
   left: -52px;z-index: 5;
   }
-  .des__text h5{height: 134px; width:170px; text-align: justify; position: relative;top: -119px;font-size: 3px;
+  .des__text h5{height: 134px; width:170px; text-align: justify; position: absolute;top: -119px;font-size: 3px;
   left: -123px;padding-left: -303px;
   }
-  .des__text p{height: 134px; width:75px; text-align: justify; position: relative;top: -84px;font-size: 3px;
+  .des__text p{height: 134px; width:75px; text-align: justify; position: absolute;top: -84px;font-size: 3px;
     left: 250px;
     }
   
     .des__text1{ height: 134px; width:170px; text-align: justify;
-      position: absolute;left: 268px; bottom: -332px;z-index:3;
+      position: absolute;left: 238px; bottom: -332px;z-index:3;
       font-size: 3px;
       }
       .des__text1 h5{height: 134px; width:30px; text-align: justify; position: absolute;
@@ -2799,7 +2799,7 @@ text cover
   text-align: center;
 
  }
-.gallery8__copy{max-width: 80px;margin: 0px auto; margin-top: -84px; background: #333; padding: 1px 20px;position :relative; z-index: 3 ;color: black; border-radius: 0px;
+.gallery8__copy{max-width: 80px;margin: 0px auto; background: #333; padding: 1px 20px;position :relative; z-index: 3 ;color: black; border-radius: 0px;
 padding-bottom: 20px;left: -207px;top: -278px;  border:2px solid rgb(82, 76, 76);padding-left: 10px;
 font-size: 8px;height: 10px;padding-right: 10px;
 
