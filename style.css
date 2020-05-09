@@ -2732,21 +2732,21 @@ img{
           }
       
           .single-img1{position: relative; top: -18px;
-            width: 8px;left: 254px;
+            width: 8px;left: 224px;
           }
           .single-img1 :hover{
             opacity: .5;
             transition: .9s;
           }
           .single-img2{position: relative; 
-            width: 8px;left: 43px;top: -17px;
+            width: 8px;left: 33px;top: -17px;
           }
           .single-2 :hover{
             opacity: .5;
             transition: .9s;
           }
           .single-img3{position: relative;
-            width: 8px;left: 90px;top: -34px;
+            width: 8px;left: 66px;top: -35px;
           }
           .single-img3 :hover{
             opacity: .5;
@@ -2837,7 +2837,7 @@ left: -235px;top: -340px;font-size: 3px;
 }
 
  .container{
-   width: 370px; 
+   width: 330px; 
  }
 
 .single__copy8{
