@@ -2732,7 +2732,7 @@ img{
           }
       
           .single-img1{position: relative; top: -18px;
-            width: 8px;left: 284px;
+            width: 8px;left: 254px;
           }
           .single-img1 :hover{
             opacity: .5;
@@ -2780,7 +2780,7 @@ text cover
 }
 
 
-.single__copy6{display: block;margin: 0px auto; margin-top: -80px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;padding-bottom: 283px;margin-bottom: -3px;left: 0px;
+.single__copy6{margin: 0px auto; margin-top: -80px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;padding-bottom: 283px;margin-bottom: -3px;left: 0px;
 }
 .single__copy6 h1{
  text-align: left; position: relative; top: -2px; left: -202px;
@@ -2837,7 +2837,7 @@ left: -235px;top: -340px;font-size: 3px;
 }
 
  .container{
-   width: 400px; 
+   width: 370px; 
  }
 
 .single__copy8{
