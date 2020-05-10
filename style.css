@@ -2799,9 +2799,7 @@ text cover
   text-align: center;
 
  }
-.gallery8__copy{margin: 0px auto;  background: #333; padding: 1px 20px;position :absolute; z-index: 3 ;color: black; border-radius: 0px;
-padding-bottom: 20px;left: 507px;top: 1078px;  border:2px solid rgb(82, 76, 76);
-font-size: 8px;height: 10px;padding-right: 76px;
+.gallery8__copy{margin: 0px auto;  background: #333; padding: 1px 20px; z-index: 3 ;color: black; border-radius: 0px;
 left: 34px;
 }
 .gallery8__copy h1{
