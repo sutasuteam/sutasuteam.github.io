@@ -2650,7 +2650,7 @@ img{
     }
   
     .des__text1{ height: 134px; width:170px; text-align: justify;
-      position: absolute;left: 238px; bottom: -332px;z-index:3;
+      position: absolute;left: 228px; bottom: -332px;z-index:3;
       font-size: 3px;
       }
       .des__text1 h5{height: 134px; width:30px; text-align: justify; position: absolute;
@@ -2732,21 +2732,21 @@ img{
           }
       
           .single-img1{position: relative; top: -18px;
-            width: 8px;left: 224px;
+            width: 8px;left: 254px;
           }
           .single-img1 :hover{
             opacity: .5;
             transition: .9s;
           }
           .single-img2{position: relative; 
-            width: 8px;left: 33px;top: -17px;
+            width: 8px;left: 43px;top: -17px;
           }
           .single-2 :hover{
             opacity: .5;
             transition: .9s;
           }
           .single-img3{position: relative;
-            width: 8px;left: 66px;top: -35px;
+            width: 8px;left: 90px;top: -34px;
           }
           .single-img3 :hover{
             opacity: .5;
@@ -2799,10 +2799,10 @@ text cover
   text-align: center;
 
  }
-.gallery8__copy{max-width: 80px;margin: 0px auto; background: #333; padding: 1px 20px;position :relative; z-index: 3 ;color: black; border-radius: 0px;
-padding-bottom: 20px;left: -207px;top: -278px;  border:2px solid rgb(82, 76, 76);padding-left: 10px;
-font-size: 8px;height: 10px;padding-right: 10px;
-
+.gallery8__copy{margin: 0px auto; margin-top: -84px; background: #333; padding: 1px 20px;position :absolute; z-index: 3 ;color: black; border-radius: 0px;
+padding-bottom: 20px;left: 507px;top: 1078px;  border:2px solid rgb(82, 76, 76);
+font-size: 8px;height: 10px;padding-right: 76px;
+left: 34px;
 }
 .gallery8__copy h1{
   color: #eee;
@@ -2812,7 +2812,7 @@ font-size: 8px;height: 10px;padding-right: 10px;
   text-align: left;
 
  }
-.gallery9__copy{max-width: 8px;margin: 0px auto; margin-top: -2px; background: #fff; padding: 1px 0px;position :relative; z-index: 3 ; border-radius: 0px;
+.gallery9__copy{max-width: 58px;margin: 0px auto; margin-top: -2px; background: #fff; padding: 1px 0px;position :relative; z-index: 3 ; border-radius: 0px;
 left: -235px;top: -340px;font-size: 3px;
 
 }
@@ -2837,7 +2837,7 @@ left: -235px;top: -340px;font-size: 3px;
 }
 
  .container{
-   width: 330px; 
+   width: 370px; 
  }
 
 .single__copy8{
