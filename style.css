@@ -250,6 +250,25 @@ a:hover{color:#1af3a4;}
   color: #03a9f4;
 }
 
+
+
+.skill{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.icon-container{
+  width: 10rem;
+  height: 10rem;
+  border: 3px solid;
+  background-color: #4b4b4e;
+  
+  display: flex;
+  transform: rotate(45deg);
+}
 /*-----------  experience ----------*/
 
 .experience-outdoors{
@@ -261,6 +280,12 @@ a:hover{color:#1af3a4;}
   margin-bottom: 10rem;
   color: rgba(0,0,0.7);
 }
+.title-heading1{
+  text-align: center;
+  text-transform: uppercase;
+ 
+  color: rgba(0,0,0.7);
+}
 .title-heading h3{
   font-size: 1.4rem;
 }
@@ -270,6 +295,17 @@ a:hover{color:#1af3a4;}
   margin: .5rem 0 1rem;
 }
 .title-heading p{
+  text-transform: lowercase;
+}
+.title-heading1 h3{
+  font-size: 1.4rem;
+}
+.title-heading1 h1{
+  font-family: 'Aldrich',sans-serif;
+  font-size: 2rem;
+  margin: .5rem 0 1rem;
+}
+.title-heading1 p{
   text-transform: lowercase;
 }
 .activities-grid{
@@ -319,7 +355,7 @@ a:hover{color:#1af3a4;}
   padding:  100px;
 }
 .testimonial{
-  width: 100%;
+  width: 100px;
   color: #fafafa;
   position: absolute;
   top: 55%;
@@ -331,6 +367,13 @@ a:hover{color:#1af3a4;}
 padding: 0 1.5rem;
 margin-bottom: 2rem;
 position: relative;
+width: 100%;
+color: #fafafa;
+text-align: center;
+
+}
+.testimonial-text-box p{
+  padding-top: 90px;
 }
 
 .testimonial-text-box i{
@@ -342,11 +385,23 @@ position: relative;
   z-index: 1;
 }
 .testimonial-customer img{
-width: 10rem;
-height: 10rem;
-border-radius: 100%;
+width: 20px;
+margin-top: 20rem;
+border-radius: 50%;
 border: 3px solid;
+
 }
+
+.advanture-grid{
+  text-align: center;
+}
+.advanture-grid-btn{
+  color: #03a9f4;
+  padding-left: 137px;
+  
+}
+
+
 
 
 /*-----------  experience ----------*/
@@ -1380,6 +1435,7 @@ img{
 .ukuran3 { position: relative; top: 2px;
   width: 20px;
 }
+
 
 
 
