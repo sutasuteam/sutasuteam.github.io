@@ -1,4 +1,4 @@
-html,body{height:100%;}
+html,body{height:100%; width: 100%;}
 body{background: #eee;}
 
 /*------------------------------
@@ -19,8 +19,337 @@ a{color:#16dd94}
 a:hover{color:#1af3a4;}
 
 
+/*-----------  start global 
+.container{
+  width: 90%;
+  max-width: 120rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+ 
+
+.section-heading{
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.header1{
+  width: 100%;
+  
+}
+
+.nav-list{
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav.open{
+  top: 0;
+  border-radius: initial;
+}
+.menu-toggler{
+  position: absolute;
+  top: 5rem; right: 5rem; width: 5rem;height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 1500;
+  transition: transform 650ms ease-out;
+}
+.menu-toggler.open{
+  transform: rotate(-45deg);
+ 
+}
+.landing-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+.landing-text h1{
+  user-select: none;
+  padding: 1rem;
+}
+.about .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-heading{
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.profile-img{
+  flex: 1;
+  margin-right: 5rem;
+}
+.about-details{
+  flex: 1;
+}
+
+.my-skills{
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 2.5rem;
+  text-align: center;
+
+}
+.skill{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.skill h1{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 2rem -2px 2rem 0;
+}
+.icon-container{
+  width: 10rem;
+  height: 10rem;
+  border: 3px solid;
+  background-color: #4b4b4e;
+  margin-bottom: 2rem;
+  display: flex;
+  transform: rotate(45deg);
+}
+.portfolio-item{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.portfolio-item:last-child{
+  margin-bottom: 0;
+}
+.portfolio-img{
+  flex: 1;
+}
+.portfolio-description{
+  flex: 1;
+}
+
+.experience{
+  padding-bottom: 50px;
+}
+/*
+.about-heading h1{font-size: 10rem;
+  opacity: .3;
+
+}*/
 
 
+/*-----------  start global ----------*/
+.tag{
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  top: 534px;
+  left: 0;
+  z-index: 1;
+}
+
+.landing-text h1{
+  user-select: none;
+  padding: 1rem;
+  top: 56px;position: fixed;
+}
+
+.container{
+  width: 100%;
+  max-width: 98rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  }
+
+.navi{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255,255,255,.2);
+ 
+}
+.nav-item{
+  display: -moz-grid;
+}
+
+.nav-list{
+  width: 25rem;height: 100vh; background-color: #eee;
+  position: fixed;top: 0;
+}
+
+.nav-brand{
+  width: 2rem;
+}
+.nava{
+  position: relative;
+  left: 757px;
+  color: #fafafa;
+  padding-left: 40px;
+  top: -30px;
+}
+
+.hero{
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient( 135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149,0.8) 100%),
+  url("Beate-Kuhn-.jpeg") center no-repeat; background-size: cover;position: relative;
+  
+
+}
+
+.hero::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  width: 100%;
+  height: 4.5rem;
+  background: url("Picture2.png") center no-repeat; background-size: cover ; 
+  padding:  100px;
+  
+ 
+}
+
+.main-message{
+  width: 100%;
+  max-width: 50rem;
+  color: #fafafa;
+  text-transform: uppercase;
+  transform: translateY(20%);
+}
+.main-message h3{
+  font-size: 1.6rem;
+}
+.main-message h1{
+  font-family: 'Aldrich',sans-serif;
+  margin: 1rem 0;
+}
+
+.main-message p{
+  text-transform: lowercase;
+}
+.btn{
+  color: #03a9f4;
+}
+
+/*-----------  experience ----------*/
+
+.experience-outdoors{
+  padding: 20px;
+}
+.title-heading{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10rem;
+  color: rgba(0,0,0.7);
+}
+.title-heading h3{
+  font-size: 1.4rem;
+}
+.title-heading h1{
+  font-family: 'Aldrich',sans-serif;
+  font-size: 2rem;
+  margin: .5rem 0 1rem;
+}
+.title-heading p{
+  text-transform: lowercase;
+}
+.activities-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)) ;
+  grid-gap: 2.5rem;
+  margin-bottom: 2rem;
+}
+.activities-grid-item{
+  color: #fafafa;
+  height: 40rem;
+  padding: 5rem;
+  position: relative;display: flex;
+  flex-direction: column;justify-content: center;cursor: pointer;z-index: 1;
+}
+.activities-grid-item::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient( 135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149,0.8) 100%) ;
+  z-index: -1;
+}
+.star-gazing{
+  background: url("unsplash-harson.jpg") center no-repeat; 
+}
+.hiking{
+  background: url("unsplash.jpg") center no-repeat; 
+}
+/*testimonials*/
+.testimonials{
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient( 135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149,0.8) 100%),
+  url("Beate-Kuhn-.jpeg") center no-repeat; background-size: cover;position: relative;
+}
+.testimonials::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 330px;
+  width: 100%;
+  height: 4.5rem;
+  background: url("Picture11.png") center no-repeat; background-size: cover ; 
+  padding:  100px;
+}
+.testimonial{
+  width: 100%;
+  color: #fafafa;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.testimonial-text-box{
+padding: 0 1.5rem;
+margin-bottom: 2rem;
+position: relative;
+}
+
+.testimonial-text-box i{
+  position: absolute;
+  top: -8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 8rem;
+  z-index: 1;
+}
+.testimonial-customer img{
+width: 10rem;
+height: 10rem;
+border-radius: 100%;
+border: 3px solid;
+}
+
+
+/*-----------  experience ----------*/
 /*------------------------------
 about
 ------------------------------*/
@@ -891,8 +1220,8 @@ single archive
 ------------------------------*/
 
 .content{
-  position: relative;top: 0px;left: 30px;
- 
+  position: relative;left: 98px;
+  top: -45px;
 }
 
 
@@ -905,9 +1234,12 @@ font-size: 3em;
   {
     color: transparent ;
     -webkit-text-stroke: 2px #03a9f4;
+    background: #fafafa;padding: 0 10px;
+    border-radius: 2px;
   }
   .content h1:nth-child(2)
   {
+    
     color: #03a9f4 ;
     animation: animate 4s ease-in-out infinite;
   }
@@ -927,12 +1259,23 @@ font-size: 3em;
 
   .single__copy6{margin: 0px auto; margin-top: -70px; background: #fff; margin-bottom: -456px;
   padding: 20px 40px;position :relative;background-image: url(); color: black;
-  padding-bottom: 640px;top: 122px; 
+  padding-bottom: 640px;top: -822px; 
   }
   .single__copy7{margin: 0px auto;  background: #eee; 
     position :relative;  z-index: 1;
-     top: 64px;  padding-top: 15px;
+     top: 185px;  padding-top: 15px;
      }
+
+  .single__copy10{margin: 0px auto; margin-top: -70px; background: #333; margin-bottom: -456px;
+   padding: 20px 40px;position :relative;background-image: url(); color: black;
+   padding-bottom: 640px;top: 122px; 
+    }
+    .single__copy11{margin: 0px auto; margin-top: -70px; background: #fff; margin-bottom: -456px;
+      padding: 20px 40px;position :relative;background-image: url(); color: black;
+      padding-bottom: 540px;top: -422px; 
+      }
+
+     
      /*
      .single__copy17{margin: 0px auto;  background: #03a9f4; 
       position :relative;  z-index: 2;
@@ -962,12 +1305,12 @@ font-size: 3em;
 
  }
 .gallery8__copy{max-width: 250px;margin: 0px auto; margin-top: 15px; background: #333; 
-padding: 1px 20px;position :relative; z-index: 3 ; color: black; border-radius: 0px;
-left: -520px;top: -209px;  border:2px solid rgb(82, 76, 76);padding-left: 94px;
+padding: 1px 20px;position :fixed; z-index: 3 ; color: black; border-radius: 0px;
+left: 50px;top: 0px;  border:2px solid rgb(82, 76, 76);padding-left: 94px;
 height: 80px;
 }
 .gallery8__copy h1{
-  color: #eee;
+  color: #eee; left: 0px; 
 }
 
 .gallery9{
@@ -996,7 +1339,7 @@ height: 80px;
  }
 
 .enjoy{
-  color: black; position: relative;bottom: -301px;z-index: 4;
+  color: black; position: relative;bottom: 11px;z-index: 4;
   padding-left: 26px;height: 34px;
 }
 
@@ -1027,6 +1370,9 @@ img{
 
 .ukuran { position: relative; top: 5px;
   width: 20px;
+}
+.ukuran2 { position: relative; top: 1px;
+  width: 7px;
 }
 .ukuran1 { position: relative; top: -228px;
   width: 35px;left: 34px;z-index: 4;height: 35px;
@@ -1060,8 +1406,8 @@ position: relative;text-align: center;left: -16px;
 .des__caption2{  height: 100%; width: 100%; position: relative; z-index:1; padding: 0 20px ;}
 
 .des__text{ height: 134px; width:300px; text-align: justify;
-position: absolute; bottom: 26px;
-left: 328px;
+position: absolute; bottom: 260px;
+left: 330px;
 }
 .des__text h5{height: 234px; width:300px; text-align: justify; position: absolute;top: -55px;
 left: 0px;
@@ -1310,7 +1656,7 @@ Pendahuluan
     .single-img2{position: relative; 
       width: 21px;left: 63px;top: -46px;
     }
-    .single-2 :hover{
+    .single-img2 :hover{
       opacity: .5;
       transition: .9s;
     }
@@ -1693,6 +2039,7 @@ Tablet
           .enjoy{
             color: black; position: relative;bottom: 155px;z-index: 4;
             padding-left: 26px;height: 34px;
+            width: 100%;
           }
           
           /*------------------------------
@@ -2578,6 +2925,8 @@ position: relative; left: -44px;bottom: -14px; font-size: 7px;
                   font-size: 7px;
                 }
 
+ 
+
 /*------------------------------
 image2
 ------------------------------*/
@@ -2587,10 +2936,11 @@ image2
 	margin-right: 5px;
   border: 2px solid #4b4b4e;
   position: relative; 
-  left: 80px;
+  left: 139px;
   bottom: -14px; z-index: 5;
   font-size: 15px;
-
+ 
+  
 }
 
 .image2:hover{
@@ -2605,13 +2955,18 @@ img{
 }
 
 .ukuran { position: relative; top: 1px;
-  width: 3px;
+  width: 7px;
 }
+
+.ukuran2 { position: relative; top: 1px;
+  width: 10px;
+}
+
 .ukuran1 { position: relative; top: -228px;
   width: 35px;left: 34px;z-index: 4;height: 35px;
 }
 .ukuran3 { position: relative; top: 0px;
-  width: 3px;
+  width: 10px;
 }
 
 
@@ -2624,33 +2979,33 @@ img{
   left: -2px;
   top: -10px;
   color: transparent;
-  height: 6px;
-  width: 27px;
+  height: 9px;
+  width: 47px;
   margin-bottom: -12px;
   }
   .des2 h5{
    color: #eee;top: 10px;
   position: relative;text-align: center;font-size: 3px;
-  width: 25px;margin-left: -246px;padding-left: -423px;
-
+  width: 25px;margin-left: 30px;padding-left: -423px;
+  
   }
   
   .des__caption2{  height: 40%; width: 40%; position: relative; z-index:1; padding: 0 20px ;left: -23px;z-index: 5;
   }
   
   .des__text{ height: 134px; width:120px; text-align: justify;
-  position: absolute;left: 22px; bottom: -67px;font-size: 3px;
+  position: absolute;left: 22px; bottom: 267px;font-size: 3px;
   left: -52px;z-index: 5;
   }
-  .des__text h5{height: 134px; width:170px; text-align: justify; position: absolute;top: -119px;font-size: 3px;
-  left: -123px;padding-left: -303px;
+  .des__text h5{height: 134px; width:170px; text-align: justify; position: absolute;top: 69px;font-size: 3px;
+  left: 223px;padding-left: -303px;
   }
   .des__text p{height: 134px; width:75px; text-align: justify; position: absolute;top: -84px;font-size: 3px;
     left: 250px;
     }
   
     .des__text1{ height: 134px; width:170px; text-align: justify;
-      position: absolute;left: 228px; bottom: -332px;z-index:3;
+      position: absolute;left: 328px; bottom: -432px;z-index:3;
       font-size: 3px;
       }
       .des__text1 h5{height: 134px; width:30px; text-align: justify; position: absolute;
@@ -2677,13 +3032,13 @@ img{
             width: 45px;
             margin-left: -10px;
             margin-top: -150px;
-            position: relative;top: 175px;
+            position: relative;top: 165px;
             }
           
   
         
       .edit{
-        font-size: 3px; position: relative; top: 315px; left: -52px; 
+        font-size: 7px; position: relative; top: 315px; left: -52px; 
         color: #000;z-index: -1;
       }
       
@@ -2730,29 +3085,35 @@ img{
             opacity: .5;
             transition: .9s;
           }
+          .atur{
+            width: -5px; 
+          }
       
-          .single-img1{position: relative; top: -18px;
-            width: 8px;left: 254px;
+          .single-img1{top: -20px;
+            left: 130px;
+            margin: 0px auto;
           }
           .single-img1 :hover{
             opacity: .5;
             transition: .9s;
           }
           .single-img2{position: relative; 
-            width: 8px;left: 43px;top: -17px;
+            left: 43px;top: -18px;
+            
           }
-          .single-2 :hover{
+          .single-img2 :hover{
             opacity: .5;
             transition: .9s;
           }
           .single-img3{position: relative;
-            width: 8px;left: 90px;top: -34px;
+            left: 85px;top: -35px;
           }
           .single-img3 :hover{
             opacity: .5;
             transition: .9s;
-          } 
+          }
   
+          
   .cover_text{
   position: relative;left: 567px;top: 219px;color: #000;
 
@@ -2763,47 +3124,63 @@ img{
   
   .pics{position: relative; z-index: 3;top: -200px;
   padding-left: 10px;width: 70px;
-  font-size: 5px;left: 100px;
+  font-size: 5px;left: 3px;
   }
 
 /*------------------------------
 text cover
 ------------------------------*/
-.text_cover a{ color: #000; position: relative;left: -80px; bottom: -300px; font-size: 3px;
+.text_cover a{ color: #000; position: relative;left: -80px; bottom: -300px; font-size: 7px;
 
 }
-.text_cover2 a{ color: #000; position: relative;right: -52px; bottom: -576px;font-size: 3px;width: 34px;height: 23px;
+.text_cover2 a{ color: #000; position: relative;right: -52px; bottom: -576px;font-size: 7px;width: 34px;height: 23px;
+}
+.text_cover3{
+  font-size: 5px;position: relative; width: 275px;
+  left: 223px;
+}
+.text_cover3 a{ color: #000; position: relative;right: 89px; bottom: 111px; margin-left: 8px;
+
+
+}
+.text_cover3 img{
+  position: relative;font-size: 4px;margin-left: 5px;
+}
+.text_cover3 a:hover{
+  color: #03a9f4; 
 }
 
-.text_cover3 a{ color: #000; position: relative;right: 122px; bottom: 52px;font-size: 3px;width: 280px; height: 21px; z-index: 4;
-
-}
-
-
-.single__copy6{margin: 0px auto; margin-top: -80px; background: #fff; padding: 20px 40px;position :relative; z-index: 3 ;padding-bottom: 283px;margin-bottom: -3px;left: 0px;
-}
-.single__copy6 h1{
- text-align: left; position: relative; top: -2px; left: -202px;
- font-size: 9px;width: 403px;
-}
+.single__copy6{margin: 0px auto; margin-top:-70px;   background: #fff ;
+  padding: 20px 40px;position :relative;top: 122px;
+  
+  }
+  
+    .single__copy6 h1{
+      position: relative; 
+      top: 12px;left: -123px;width: 630px;
+      font-size: 16px;
+     }
 .single__copy6 h5{
-  text-align: left; position: relative; top: 3px; left: 250px;
+  text-align: left; position: relative; top: 3px; 
  }
  .single__cop6 h5{
-  text-align: left; position: relative; top: 7px; left: -204px;
-  font-size: 4px;
+  text-align: left; position: relative; top: 17px; padding-left: 140px;font-size: 7px;
  }
 
+ .single__copy6 a{ 
+  color:rgb(34, 27, 27);
+  position: relative; font-size: 12px;
+}
 
 .gallery8{
   text-align: center;
 
  }
-.gallery8__copy{margin: 0px auto;  background: #333; padding: 1px 20px; z-index: 3 ;color: black; border-radius: 0px;
-left: 34px;
+.gallery8__copy{margin: 0px auto;  background: #333; padding: 1px 20px; z-index: 3 ;color: black; width: 150px;
+left: -155px;height: 50px;margin-top: 540px;
 }
 .gallery8__copy h1{
-  color: #eee;
+  color: #eee;left: -6px;top: auto;left: 17px;
 }
 
 .gallery9{
@@ -2811,7 +3188,7 @@ left: 34px;
 
  }
 .gallery9__copy{max-width: 58px;margin: 0px auto; margin-top: -2px; background: #fff; padding: 1px 0px;position :relative; z-index: 3 ; border-radius: 0px;
-left: -235px;top: -340px;font-size: 3px;
+left: -195px;top: -540px;font-size: 10px;
 
 }
 .ga{
@@ -2823,20 +3200,18 @@ left: -235px;top: -340px;font-size: 3px;
  width: 30px;
 }
 .gallery10__copy{max-width: 58px;margin: 0px auto; margin-top:39px; background: #fff; 
-  padding: 1px 0px;position :relative; z-index: 3 ; border-radius: 0px;left: -215px;top: -370px; font-size: 3px;
+  padding: 1px 0px;position :relative; z-index: 3 ; border-radius: 0px;left: -195px;top: -570px; font-size: 10px;
 }
 .gallery10__copy a{
   text-align: left;position: relative; width: 130px;
  }
 
 .enjoy{
-  color: black; position: relative;bottom: -133px;z-index: 4;
-  padding-left: 10px;height: 34px;width: 50px;font-size: 6px;
+  color: black; position: relative;bottom: -20px;z-index: 4;margin: 0px auto;
+  padding-left: 10px;width: 100%;font-size: 6px;left: 4px;
 }
 
- .container{
-   width: 370px; 
- }
+
 
 .single__copy8{
   font-size: 8px;width: 360px;column-count: 1;
@@ -3039,11 +3414,14 @@ left: 1230px;
 .sing__copy5{max-width: 800px;margin: 0px auto; margin-top: 23px;  padding: 20px 40px;position :relative; z-index: 3 ; color: black; text-align: center;
 }
 
-.single__copy7{margin: 0px auto;  background:rgb(172, 12, 12); 
-  position :relative;  z-index: 3;
-   top: 52px;  padding-top: 15px;
+.single__copy7{margin: 0px auto;  background:#eee; 
+  position :relative;  z-index: 1;
+   top: -80px;  padding-top: 0px;height: 60px;
+   
    }
-
+.footer{
+  top: -25px;
+}
 
 }
       
@@ -3071,8 +3449,12 @@ font-family: Fourth; src: url(Fourth-Edition.otf;)}
   @font-face {
     font-family: NERVOUSM1; src: url(NERVOUSM.otf;)}
 
+    @font-face {
+      font-family: Aldrich; src: url(Aldrich.ttf;)}
+  
 
 
+    
 
   /*------------------------------
      clearfix
