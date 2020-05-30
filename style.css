@@ -162,6 +162,7 @@ a:hover{color:#1af3a4;}
   top: 534px;
   left: 0;
   z-index: 1;
+  
 }
 
 .landing-text h1{
@@ -184,7 +185,7 @@ a:hover{color:#1af3a4;}
   justify-content: space-between;
   padding: 1rem 0;
   border-bottom: 1px solid rgba(255,255,255,.2);
- 
+  
 }
 .nav-item{
   display: -moz-grid;
@@ -204,6 +205,28 @@ a:hover{color:#1af3a4;}
   color: #fafafa;
   padding-left: 40px;
   top: -30px;
+  
+}
+.nav-links::before,
+.nava::before{
+  content: "";
+  position: absolute;
+  left: 41px;
+  bottom: -.5rem;
+  background: rgb(252, 106, 90);
+  width: 50%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 650ms;
+  
+}
+
+.nava::before{
+  transform: scaleX(1);
+}
+.nav-links:hover::before{
+  transform: scaleX(1);
 }
 
 .hero{
@@ -233,7 +256,7 @@ a:hover{color:#1af3a4;}
   max-width: 50rem;
   color: #fafafa;
   text-transform: uppercase;
-  transform: translateY(20%);
+  transform: translateY(30%);
 }
 .main-message h3{
   font-size: 1.6rem;
@@ -247,9 +270,18 @@ a:hover{color:#1af3a4;}
   text-transform: lowercase;
 }
 .btn{
-  color: #03a9f4;
-}
+color: #fafafa;
+background: rgb(252, 106, 90);
+border-radius: 2rem;
+display: inline-block;
+padding: 5px 10px;
+text-transform: uppercase;
+transition: 650ms;
 
+}
+.btn:hover{
+  color: #fafafa;
+}
 
 
 .skill{
@@ -343,6 +375,7 @@ a:hover{color:#1af3a4;}
   height: 80vh;
   background: linear-gradient( 135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149,0.8) 100%),
   url("Beate-Kuhn-.jpeg") center no-repeat; background-size: cover;position: relative;
+ 
 }
 .testimonials::before{
   content: "";
@@ -373,7 +406,12 @@ text-align: center;
 
 }
 .testimonial-text-box p{
-  padding-top: 90px;
+  padding-top: 30px;
+ 
+}
+.testimonial h1{
+  position: relative;padding-bottom: 145px;
+  
 }
 
 .testimonial-text-box i{
@@ -392,15 +430,23 @@ border: 3px solid;
 
 }
 
+
 .advanture-grid{
   text-align: center;
 }
 .advanture-grid-btn{
-  color: #03a9f4;
-  padding-left: 137px;
-  
+margin-left: 137px;
+color: #fafafa;
+background: rgb(252, 106, 90);
+border-radius: 2rem;
+display: inline-block;
+padding: 5px 10px;
+text-transform: uppercase;
+transition: 650ms;
 }
-
+.advanture-grid-btn:hover{
+  color: #fafafa;
+}
 
 
 
@@ -1276,7 +1322,7 @@ single archive
 
 .content{
   position: relative;left: 98px;
-  top: -45px;
+  top: -47px;
 }
 
 
@@ -3477,6 +3523,12 @@ left: 1230px;
    }
 .footer{
   top: -25px;
+}
+
+
+/*baru*/
+.nav-links{
+  margin-left: -600px;
 }
 
 }
