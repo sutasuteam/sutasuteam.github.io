@@ -207,6 +207,16 @@ a:hover{color:#1af3a4;}
   top: -30px;
   
 }
+.nava:hover{
+  color: #03a9f4;
+}
+.nav-links{
+  position: relative;
+  left: -220px;
+  margin: 0 auto;
+  width: 300px;
+}
+
 .nav-links::before,
 .nava::before{
   content: "";
@@ -214,20 +224,21 @@ a:hover{color:#1af3a4;}
   left: 41px;
   bottom: -.5rem;
   background: rgb(252, 106, 90);
-  width: 50%;
+  width: 55%;
   height: 2px;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 650ms;
-  
+  margin: 0 auto;
 }
 
 .nava::before{
   transform: scaleX(1);
 }
+/*
 .nav-links:hover::before{
   transform: scaleX(1);
-}
+}*/
 
 .hero{
   width: 100%;
@@ -250,6 +261,7 @@ a:hover{color:#1af3a4;}
   
  
 }
+
 
 .main-message{
   width: 100%;
@@ -296,11 +308,17 @@ transition: 650ms;
   width: 10rem;
   height: 10rem;
   border: 3px solid;
-  background-color: #4b4b4e;
+  background-color: #fafafa;
   
   display: flex;
   transform: rotate(45deg);
 }
+.icon-container img{
+  margin: auto;
+  padding-top: 22px;
+  transform: rotate(245deg);
+}
+
 /*-----------  experience ----------*/
 
 .experience-outdoors{
@@ -381,7 +399,7 @@ transition: 650ms;
   content: "";
   position: absolute;
   left: 0;
-  bottom: 330px;
+  bottom: 310px;
   width: 100%;
   height: 4.5rem;
   background: url("Picture11.png") center no-repeat; background-size: cover ; 
@@ -424,7 +442,7 @@ text-align: center;
 }
 .testimonial-customer img{
 width: 20px;
-margin-top: 20rem;
+margin-top: 12rem;
 border-radius: 50%;
 border: 3px solid;
 
@@ -434,15 +452,20 @@ border: 3px solid;
 .advanture-grid{
   text-align: center;
 }
+
 .advanture-grid-btn{
-margin-left: 137px;
+
 color: #fafafa;
 background: rgb(252, 106, 90);
 border-radius: 2rem;
 display: inline-block;
-padding: 5px 10px;
+padding: 10px 10px;
 text-transform: uppercase;
 transition: 650ms;
+position: absolute;
+left: -7px;
+text-emphasis: none;
+
 }
 .advanture-grid-btn:hover{
   color: #fafafa;
@@ -1322,7 +1345,7 @@ single archive
 
 .content{
   position: relative;left: 98px;
-  top: -47px;
+  top: -55px;
 }
 
 
@@ -1421,7 +1444,7 @@ height: 80px;
  .gallery9__copy a{
   text-align: left;position: relative; width: 230px;display: block;
  }
-.gallery9__copy{max-width: 238px;margin: 0px auto; margin-top: -2px; background: #fff; padding: 1px 0px;position :relative; z-index: 1 ; border-radius: 0px;left: -525px;top: -375px;
+.gallery9__copy{max-width: 138px;margin: 0px auto; margin-top: -2px; background: rgb(144, 173, 250); padding:  0px;position :relative; z-index: 1 ; border-radius: 0px;left: -480px;top: -75px;
 }
 .ga{
   display: inline-block;
@@ -2351,6 +2374,10 @@ left: 212px; padding-bottom: 300px; margin-bottom: 8px;
 }
 
 /* external css: flickity.css */
+.advanture-grid-btn{
+  position: absolute;
+left: 30px;
+}
 
 * { box-sizing: border-box; }
 
@@ -3289,10 +3316,8 @@ left: -155px;height: 50px;margin-top: 540px;
   text-align: left;
 
  }
-.gallery9__copy{max-width: 58px;margin: 0px auto; margin-top: -2px; background: #fff; padding: 1px 0px;position :relative; z-index: 3 ; border-radius: 0px;
-left: -195px;top: -540px;font-size: 10px;
-
-}
+ .gallery9__copy{max-width: 138px;margin: 0px auto; margin-top: -2px; background: rgb(144, 173, 250); padding:  0px;position :relative; z-index: 1 ; border-radius: 0px;left: -480px;top: -75px;
+ }
 .ga{
   display: inline-block;
   color: rgb(22, 20, 20);
@@ -3527,9 +3552,46 @@ left: 1230px;
 
 
 /*baru*/
-.nav-links{
-  margin-left: -600px;
+
+.tag{
+  padding-top: 35px;
 }
+
+.content{
+  left: 70px;
+  padding-top: 34px;
+  top: -32px;
+}
+
+
+.nav-links{
+  margin-left: -340px;
+  padding-top: 2px;
+}
+.hero{
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient( 135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149,0.8) 100%),
+  url("Beate-Kuhn-.jpeg") center no-repeat; background-size: cover;position: relative;
+  
+
+}
+
+.hero::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  width: 100%;
+  height: 1rem;
+  background: url("Picture2.png") center no-repeat; background-size: cover ; 
+  padding:  100px;
+ 
+}
+
+
+
+
 
 }
       
