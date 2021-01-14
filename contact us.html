@@ -115,6 +115,72 @@
     background: rgb(238, 34, 12);
   }
 
+  
+/*------------------------------
+contact
+------------------------------*/
+.rows{
+  background: #16dd94;
+  width: 80%;
+  margin: 4% auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+.cool{
+  flex-basis: 25%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+
+  }
+  .cool img{
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+
+  }
+  .cool p{
+    margin: 20px 0;
+  }
+
+.social-link .fa{
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #000;
+  margin: 0 7px;
+  cursor: pointer;
+  transition: transform .5s;
+  }
+
+.social-link .fa:hover{
+ background: #000;
+ color: #fff;
+ transform: translateY(-7px);
+
+}
+.cool:hover img{
+  transform: scale(1.1);
+  }
+.cool span{
+  width:0 ;
+  border-top: 20px solid transparent ;
+  border-bottom: 20px solid transparent ;
+  border-right: 15px solid color #16dd94 ;
+  position: absolute;
+  top:50%;
+  right:0;
+  transform: translateY(-50%);
+  z-index: 2;
+
+}
+
+.rows__copy{max-width: 800px;margin: 0px auto; margin-top: -60px; background: #fff; padding: 10px 10px;position :relative; z-index: 1}
+.rows__copy__meta{font-weight: bold;font-size: 18px;font-style: italic;}
+.rows__copy__title{font-size: 32px;}
+
 </style>
 
 
@@ -203,12 +269,12 @@
     </nav>
 
 
-    <div class="row row__copy">
-      <div class="col">
+    <div class="rows rows__copy">
+      <div class="cool">
         <span></span>
       <img src="ady.jpg" alt="">
       </div>
-      <div class="col">
+      <div class="cool">
         <h3>Ady Prasetiyo</h3>
         <p>Bagian : Editing</p>
         <div class="social-link">
@@ -216,14 +282,14 @@
           <i class="fa fa-twitter"></i>
           <i class="fa fa-linkedin"></i>
         </div>
-        <p>Hub : 0896-9940-6484</p>
+        <p> Hub : 0896-9940-6484</p>
       </div>
 
-      <div class="col">
+      <div class="cool">
         <span></span>
         <img src="unsplash 6.jpg" alt="">
       </div>
-      <div class="col">
+      <div class="cool">
         <h3>Coming Soon</h3>
         <p>...</p>
         <div class="social-link">
