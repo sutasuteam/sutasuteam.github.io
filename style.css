@@ -2170,9 +2170,9 @@ position: relative;
 
   .uk{ position: relative; border: 4px rgb(165, 158, 158);
     max-width: 200px; 
-   height: 20px; border-spacing: 5px;
-   top: 430px; z-index: 2;
-   padding-bottom: 380px;
+border-spacing: 5px;
+  z-index: 2;
+ 
    font-size: 12px;
    
   }
@@ -3073,14 +3073,6 @@ position: relative;
   }
 
 
-  .uk{ position: relative; border: 4px rgb(165, 158, 158);
-    max-width: 200px; 
-   height: 20px; border-spacing: 5px;
-   top: 450px; z-index: 2;
-   padding-bottom: 390px;
-   font-size: 12px;
-   
-  }
 
   .uk a{
     position: relative; color: rgb(26, 22, 22); background: white; 
