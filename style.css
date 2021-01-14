@@ -171,12 +171,8 @@ a:hover{color:#1af3a4;}
   top: 56px;position: fixed;
 }
 
-.container{
-  width: 100%;
-  max-width: 98rem;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-  }
+
+
 
 .navi{
   width: 100%;
@@ -358,6 +354,7 @@ transition: 650ms;
 .title-heading1 p{
   text-transform: lowercase;
 }
+
 .activities-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)) ;
@@ -670,6 +667,133 @@ arrow
 transform: rotate(360deg);
 transition: all 1s;
   }
+
+  
+/*------------------------------
+play video
+------------------------------*/
+
+
+  
+.container{
+  width: 100%;
+  margin: 80px auto;
+  color: rgb(41, 38, 38);
+
+}
+
+.container h1{
+  padding: 60px 0;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.col{
+  flex-basis: 100%;
+  min-width: 800px;
+  position: relative;
+  left: 275px;
+  bottom: -1565px;
+  margin-bottom: 11px;
+
+}
+
+.feature-img{
+  width: 100%;
+  margin: auto;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  
+}
+
+.small-img-row1{
+  display: flex;
+  background: #dbd6d6;
+  margin: 20px 0;
+  align-items: center;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100%;  
+}
+
+
+.small-img-row1 p{
+  color: #f0e2e2;
+  line-height: 22px;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 10px;
+}
+
+
+.small-img{
+  position: relative;
+}
+
+.small-img img{
+  width: 150px;
+}
+
+.play-btn{
+  width: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  
+}
+
+.small-img .play-btn{
+  width: 35px;
+}
+
+.video-player{
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  display: none;
+  
+}
+
+video:focus{
+  outline: none;
+}
+
+.close-btn{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  cursor: pointer;
+}
+
+
+/*------------------------------
+Pendahuluan
+------------------------------*/
+.doble{
+    text-align: center;
+   }
+  
+  .doble__copy{max-width: 800px;margin: 0px auto; margin-top: 42px; background: #fff; padding: 20px 40px;position :relative; z-index: 3}
+  .doble__copy__meta{font-weight: bold;font-size: 18px;font-style: italic;}
+  .doble__copy__title{font-size: 32px;}
+  
+
+
 
 /*------------------------------
 web
@@ -1132,31 +1256,9 @@ header
 /*------------------------------
 contact
 ------------------------------*/
-.row{
-  background: #16dd94;
-  width: 80%;
-  margin: 4% auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
 
-}
-.col{
-  flex-basis: 25%;
-  text-align: center;
-  overflow: hidden;
-  position: relative;
 
-  }
-  .col img{
-    width: 100%;
-    cursor: pointer;
-    transition: 1s;
-
-  }
-  .col p{
-    margin: 20px 0;
-  }
+ 
 
 .social-link .fa{
   width: 35px;
@@ -2012,6 +2114,177 @@ Tablet
     transition: all 1s;
     }
 
+    
+ 
+/*------------------------------
+contact
+------------------------------*/
+.rows{
+  background: #16dd94;
+  width: 70%;
+  margin: 4% auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+.cool{
+  flex-basis: 45%;
+  overflow: hidden;
+  position: relative;
+
+  }
+
+  .cool p{
+  text-align: left;
+    width: 400px;
+position: relative;
+
+  }
+
+  .cools{
+    flex-basis: 50%;
+  overflow: hidden;
+  position: relative;
+  padding-left: 70px;
+  }
+
+  .cools p{
+  text-align: left;
+    width: 400px;
+position: relative;
+
+  }
+
+
+  
+  td {
+    position: relative; background: white; max-width: 100px; text-align: left;border-radius: 2px;
+  }
+
+.h33{ top: 20px; position: relative;
+    text-align: left;font-family: Fourth;
+    padding-bottom: 70px;
+  }
+
+
+  .uk{ position: relative; border: 4px rgb(165, 158, 158);
+    max-width: 200px; 
+   height: 20px; border-spacing: 5px;
+   top: 430px; z-index: 2;
+   padding-bottom: 380px;
+   font-size: 12px;
+   
+  }
+
+  .uk a{
+    position: relative; color: rgb(26, 22, 22); background: white; 
+    padding-left: 10px; 
+  }
+
+    .text1 a{
+     color: black;
+     position: relative;
+     top: 25PX;
+     text-align: left;
+     
+    }
+
+    .ad0{
+      text-align: left; padding-top: 70px;
+    }
+
+   .ad1{
+     text-align: justify; color: #332b2b;
+   }
+
+   
+
+.nava{
+position: relative;
+left: -77px;
+color: #1a1919;
+margin: 0 auto;
+font-size: 12px;
+
+}
+.nava:hover{
+color: #101213;
+}
+.nav-links1{
+position: relative;
+left: -70px;
+margin: 0 auto;
+width: 80px;
+top: 410px;
+
+
+}
+
+.nav-links1::before,
+.nava::before{
+content: "";
+position: absolute;
+left: 140px;
+bottom: -.5rem;
+background: rgb(252, 106, 90);
+width: 75%;
+height: 2px;
+transform: scaleX(0);
+transform-origin: left;
+transition: transform 650ms;
+margin: 0 auto;
+
+}
+
+.nava::before{
+transform: scaleX(1);
+}
+
+
+
+.nava1{
+position: relative;
+left: -77px;
+color: #1a1919;
+padding-left: 140px;
+top: 20px;
+margin: 0 auto;
+font-size: 12px;
+}
+.nava1:hover{
+color: #0e0f0f;
+}
+
+.nava1::before{
+content: "";
+position: absolute;
+left: 140px;
+bottom: -.5rem;
+background: rgb(252, 106, 90);
+width: 55%;
+height: 2px;
+transform: scaleX(0);
+transform-origin: left;
+transition: transform 650ms;
+margin: 0 auto;
+padding-left: 104px;
+}
+.nava1::before{
+transform: scaleX(1);
+}
+
+
+.biodata{
+text-align: justify;  color: #332b2b;
+
+}
+
+.daftar {
+color: #0e0f0f; text-align: justify; margin-left: 200px;
+}
+
+
 /* Archive */
 
     .pics{position: relative; z-index: 3;top: -100px;
@@ -2544,6 +2817,8 @@ left: 1230px;
   width: 230px;
 }
 
+
+
 }
 
 
@@ -2744,6 +3019,177 @@ left: 155px; height: 12px;
 .gallery7__copy{max-width: 62px;margin: 3px auto; margin-top:-345px; background: #eee; position :relative; border-radius: 1px;
 height: 4px; padding-bottom: 350px;left: 57px;z-index: 2;
 }
+
+
+/*------------------------------
+contact
+------------------------------*/
+.rows{
+  background: #16dd94;
+  width: 70%;
+  margin: 4% auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 15px;
+}
+.cool{
+  flex-basis: 45%;
+  overflow: hidden;
+  position: relative;
+
+  }
+
+  .cool p{
+  text-align: left;
+    width: 400px;
+position: relative;
+
+  }
+
+  .cools{
+    flex-basis: 50%;
+  overflow: hidden;
+  position: relative;
+  padding-left: 70px;
+  }
+
+  .cools p{
+  text-align: left;
+    width: 400px;
+position: relative;
+
+  }
+
+
+  
+  td {
+    position: relative; background: white; max-width: 100px; text-align: left;border-radius: 2px;
+  }
+
+.h33{ top: 20px; position: relative;
+    text-align: left;font-family: Fourth;
+    padding-bottom: 70px;
+  }
+
+
+  .uk{ position: relative; border: 4px rgb(165, 158, 158);
+    max-width: 200px; 
+   height: 20px; border-spacing: 5px;
+   top: 450px; z-index: 2;
+   padding-bottom: 390px;
+   font-size: 12px;
+   
+  }
+
+  .uk a{
+    position: relative; color: rgb(26, 22, 22); background: white; 
+    padding-left: 10px; 
+  }
+
+    .text1 a{
+     color: black;
+     position: relative;
+     top: 25PX;
+     text-align: left;
+     
+    }
+
+    .ad0{
+      text-align: left; padding-top: 70px;
+    }
+
+   .ad1{
+     text-align: justify; color: #332b2b;
+   }
+
+   
+
+.nava{
+position: relative;
+left: -77px;
+color: #1a1919;
+margin: 0 auto;
+font-size: 12px;
+
+}
+.nava:hover{
+color: #101213;
+}
+.nav-links1{
+position: relative;
+left: -70px;
+margin: 0 auto;
+width: 80px;
+top: 410px;
+
+
+}
+
+.nav-links1::before,
+.nava::before{
+content: "";
+position: absolute;
+left: 140px;
+bottom: -.5rem;
+background: rgb(252, 106, 90);
+width: 75%;
+height: 2px;
+transform: scaleX(0);
+transform-origin: left;
+transition: transform 650ms;
+margin: 0 auto;
+
+}
+
+.nava::before{
+transform: scaleX(1);
+}
+
+
+
+.nava1{
+position: relative;
+left: -77px;
+color: #1a1919;
+padding-left: 140px;
+top: 20px;
+margin: 0 auto;
+font-size: 12px;
+}
+.nava1:hover{
+color: #0e0f0f;
+}
+
+.nava1::before{
+content: "";
+position: absolute;
+left: 140px;
+bottom: -.5rem;
+background: rgb(252, 106, 90);
+width: 55%;
+height: 2px;
+transform: scaleX(0);
+transform-origin: left;
+transition: transform 650ms;
+margin: 0 auto;
+padding-left: 104px;
+}
+.nava1::before{
+transform: scaleX(1);
+}
+
+
+.biodata{
+text-align: justify;  color: #332b2b;
+
+}
+
+.daftar {
+color: #0e0f0f; text-align: justify; margin-left: 200px;
+}
+
+
 
 
 
@@ -3589,8 +4035,25 @@ left: 1230px;
  
 }
 
+.container{
+  width: 90%;
+  
+}
 
+.gallery9__copy{
+ 
+   
+    display: inline-block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    transition: 650ms;
+    
+    
+}
 
+.advanture-grid-item p{
+text-align: left;
+}
 
 
 }
