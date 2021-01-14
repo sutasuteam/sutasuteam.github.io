@@ -2153,7 +2153,8 @@ position: relative;
   text-align: left;
     width: 400px;
 position: relative;
-
+margin-left: -70px;
+z-index: 2;
   }
 
 
@@ -3843,7 +3844,7 @@ left: -155px;height: 50px;margin-top: 540px;
 
 
 .btn-one{
-  background-color: rgb(44, 136, 211);font-family: "Roboto",sans-serif;padding-top: 2px;padding-bottom: 1px; padding-left: 4px;padding-right: 4px;
+  background-color: rgb(44, 136, 211);font-family: "Roboto",sans-serif;padding-top: 2px;padding-bottom: 1px; padding-left: 8px;padding-right: 4px;
 }
 
 .btn-one:hover{
