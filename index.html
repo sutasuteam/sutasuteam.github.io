@@ -1,372 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catatan</title>
-    <link rel="shortcut icon" href="logo/hp_folder_book.png">
 
-</head>   
+  <meta charset="UTF-8">
+  <title>Inkarnasi.Ink</title>
 
-<style type="text/css">
-    html,body{
-      padding: 0;
-      margin:0;
-      box-sizing: border-box;
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Typenote — W3.CSS: Jane Bloglife">
+  <meta name="keywords"    content="typenote, w3css, templates, jane, bloglife">
+  <meta name="author"      content="Gurov Dmitriy">
+  <meta name="robots"      content="noindex, follow">
+
+  <link rel="preload" href="font/woff2/Oswald-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="font/woff2/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="font/woff2/OpenSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="preload" href="https://www.w3schools.com/w3css/4/w3.css"         as="style">
+  <link rel="preload" href="css/style.css"                                    as="style">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+   <link rel="shortcut icon" href="ink.png" type="image/x-icon">
+
+
+</head>
+
+<body class="w3css-jane-bloglife ">
+
+  <header>
+
+    <h1 class="visually-hidden"> list </h1>
+
+    <a class="skip-link" href="#main">skip-link</a>
+
+    <nav class="w3-bar w3-black w3-hide-small">
+      <h2 class="visually-hidden">Navigation</h2>
+      <a class="w3-bar-item w3-button" ><span class="visually-hidden">Facebook</span><span class="fa fa-facebook-official"></span></a>
+      <a class="w3-bar-item w3-button" ><span class="visually-hidden">Instagram</span><span class="fa fa-instagram"></span></a>
+      <a class="w3-bar-item w3-button" ><span class="visually-hidden">discord</span><span class="fa fa-flickr"></span></a>
+      <a class="w3-bar-item w3-button" href="https://x.com/crypto_hits" target="_blank"><span class="visually-hidden">twitter</span><span class="fa fa-twitter"></span></a>
+      <a class="w3-bar-item w3-button" ><span class="visually-hidden">youtube</span><span class="fa fa-youtube"></span></a>
+      <a class="w3-bar-item w3-button" ><span class="visually-hidden">linkeding</span><span class="fa fa-linkedin"></span></a>
+      <a class="w3-bar-item w3-button" ><span class="visually-hidden">medium</span><span class="fa fa-medium"></span></a>
+      <a class="w3-bar-item w3-button w3-right" ><span class="visually-hidden">search</span><span class="fa fa-search"></span></a>
       
-      background: url("sora___no_game_no_life_by_uzumakiash-d9pptnb.png") center no-repeat;
-      background-size: cover;
       
-    }
+    </nav>
 
-    .textt{
-      margin-bottom: 60px;
-    }
+   
 
-    .text1 a{
-       text-decoration: none; 
-       color: black;
-      }
+    <div class="w3-content ">
 
-    li a{ 
-      position: relative;
-
-    }
-
-    .doc__copy{
-      max-width: 800px;margin: 0px auto;padding: 20px 40px;position :relative ;background: url("faucets-file/img/ilove you.jpg") center no-repeat ;border-radius: 15px;
-      background-size: cover; 
-    }
-    .doc__copy a{ 
-      color: black; margin-right: 115px; text-decoration: none;
-      display: inline; 
-    }
-
-    .doc__copy1{
-      max-width: 800px;margin: 0px auto;padding: 20px 40px;position :relative ;background: url("faucets-file/img/Say-i-love-you-1028628.jpg" ) center no-repeat ;border-radius: 15px;
-      background-size: cover; background-position: top;
-    }
-    .doc__copy1 a{
-    color: black; margin-right: 115px; text-decoration: none;
-      display: inline;
-    }
-
-    
-
-    .box1{
-        border-width: 8px; padding-bottom: 130px;
-      
-     }
-     .gallery4__copy{max-width: 205px;margin: 0px auto; margin-top: 10px; background: rgb();position :relative ;left: -186px; background-image: url(); border-radius: 23px;
-      height: 30px;
-     }
-
-     .gallery2{
-      text-align: center;
-
- }
-.gallery2__copy{max-width: 352px;margin: 0px auto; margin-top: -10px; ; padding: 1px 5px;position :relative; ;background-image: url(); border-radius: 12px; bottom: -23px; 
-border: 1px solid #eee;left: 0px; box-shadow: 0 0px 2px rgb(31, 29, 29);
-margin-top: 120px; margin-bottom: 20px;
-}
-
-.btn{max-width: 160px; 
-  padding-left: 10px;
-  text-align: left; position: relative;
-  
-
-}
-
-
-
-* { box-sizing: border-box; }
-
-body { font-family: sans-serif; }
-
-.carousel {
-  background: #EEE;
-}
-
-.carousel-cell {
-  width: 704px;
-  height: 1114px;
-  margin-right: 10px;
-  background: white;
-  border-radius: 5px;
-  position: absolute;
-  counter-increment: carousel-cell;
-  
-}
-.carousel-cell h3{
-text-align: center;
-}
-.carousel-cell h4{
-  padding-top: 22px;
-  padding-left: 123px;
-
-  }
-
-
-
-/* external css: flickity.css 2 */
-
-* { box-sizing: border-box; }
-
-body { font-family: sans-serif; }
-
-p { position: relative;
-  left: 23px;
-}
-
-.carousel2 {
-  background: #EEE;
-}
-
-.carousel-cell2 {
-  width: 704px;
-  height: 1114px;
-  margin-right: 10px;
-  background: white;
-  border-radius: 5px;
-  counter-increment: carousel-cell;
-
-}
-.tan{
-position: relative; left: -297px;bottom: -34px;
-}
-
-/* cell number
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-}*/
-
-.slidershow{
-  width: 705px ; height: 1114px; overflow: hidden;margin: 0px auto;
-}
-
-.middle{
-  position: relative;
-  top: 750px;
-  left:212px;
-
-  transform: translate(-50%, -50%);
-}
-.navigation{
-  position: absolute; bottom: 20px; left: 80%;transform: translateX(-50%); display: flex;
-  }
-
-  .bar{
-    width: 50px;
-    height: 10px;
-    border: 2px solid black;
-    margin: 6px;
-    cursor: pointer;
-    transition: 0.4s;
-    
-    }
-.bar:hover{
-background: #fff;
-
-}
-.slides{
-  width: 434%; height: 100%;display: flex; position: absolute
-
-  }
-
-.slide{
-width: 20%; transition: 0.6s;
-}
-.slide carousel-cell{
-  width: 100%;
-  height: 100%;
-
-}
-
-input[name="r"]{
-  position: absolute;
-  visibility: hidden;
-}
-
-#r1:checked ~ .s1{
-margin-left: 0;
-}
-#r2:checked ~ .s1{
-  margin-left: -20%;
-  }
-  #r3:checked ~ .s1{
-    margin-left: -40%;
-    }
-    #r4:checked ~ .s1{
-      margin-left: -60%;
-      }
-
-     .textt{
-      right: 100px;position: relative;
-      }
-
-      
-    .box1{
-        border-width: 8px; 
-      
-     }
-     .gallery4__copy{max-width: 205px;margin: 0px auto; margin-top: 10px; background: rgb();position :relative ;left: -186px; background-image: url(); border-radius: 23px;
-      height: 30px; margin-top: 200px;
-     }
-
-     
-.warna{
-  color: #6e6b6b; width: 420px; text-align: justify;
-}
-
-
-
-</style> 
-
-<body>
-
-         
-<div class="slidershow middle">
-  <div class="slides">
-    <input type="radio" name="r" id="r1" checked>
-    <input type="radio" name="r" id="r2">
-    <input type="radio" name="r" id="r3">
-    <input type="radio" name="r" id="r4">
-    <div class="slide s1">
-      <div class="carousel-cell" alt="">
-      <h3>Noted</h3>
-      <hr color="black" >
-      <h4 class="textt">Assalamu'alaikum Warahmatullahi Wabarakatuh </h4>
-      <div class="warna"><p> 
-
-
-        <!-----
-        Saya ady prasetiyo, saya melakukan terminal / cuti pada kuliah saya dikarenakan belum dapat membayar administrasi. berkuliah di Universitas wijaya putra angkatan 14 dan masih semester 3, Yang ingin saya sampaikan adalah saya meminta bantuan pada semuanya yang memiliki kemampuan untuk meminjamkan uang kepada saya sebisanya, demi dapat berkuliah kembali. Namun pinjaman tersebut tidak dapat saya kembalikan dengan waktu singkat. Saya akan berusha membayarnya sebelum atau setelah bapak saya mendapatkan uang pensiun dari pt.coca cola, kurang lebih tinggal 4 tahunan.  <br><br>
-
-        untuk dapat membantu saya anda harus membayar pada rekening kepunyaan administrasi kampus setelah itu memfoto bukti pembayaran dan mengirim ke nomor wa saya dengan menyertakan nama, alamat dan nomor hp atau bisa dengan datang langsung ke kediaman selaku pengurus administrasi dengan menyebutkan membayar spp yang di pinjam ady prasetiyo. untuk keterangan mengenai kelengkapan biodata nya ada di bawah. juga saya akan memberikan surat perjanjian pinjaman beserta tanda tangan saya pada setiap orang yang telah membantu melunasi tunggakan spp ini. <br><br>
-
-        juga saya katakan sekali lagi tolong serahkan bukti pembayarannya untuk dapat saya beritahukan kepada pihak administrasi bahwa pembayaran tersebut untuk spp nya ady prasetiyo. <br><br>
+      <div class="w3-container w3-padding-32  w3-center">
+        <p class="w3-xxxlarge usr-main-caption " tabindex="0" ><span class="text3d" style=color:#950fca; >INK</span><span class="text3d1">ARNASI</span></p> 
         
-        surat perjanjian tersebut akan berisi hal yang tidak boleh dilakukan oleh pihak yang meminjami saya uang dan sebagai bukti saya telah berhutang, hal yang tidak boleh dilakukan oleh pihak peminjam adalah :  <br><br>
-        
-        1. tidak memaksa membayar sebelum bapak saya mendapatkan uang pensiunannya. <br><br>
-        2. tidak boleh melanggar ketentuan yang sudah di sepakati pada perjanjian ini. <br><br>
-
-        jika ingin melihat isi dari perjanjian bisa hubungi wa saya maka saya akan memberikan contoh dari perjanjian tersebut.
-
-      program ini akan saya cantumkan pada website saya. disitu akan ada nama yang meminjami uang kepada saya beserta berapa besar nilai rupiah yang saya pinjam dan keterangan sudah terlunasi atau belum. yang akan saya perbaruhi setiap ada yang meminjamkan saya uang untuk membayar spp. <br><br>
-
-      
-      biodata untuk melakukan pembayaran :<br><br>
-      
-      nama pengurus administrasi   :
-      nomor rekening administrasi  :
-      alamat pengurus administrasi :
-
-      nama peminjam                :
-      nomor hp/wa                  :
-      alamat peminjam              :
-      alamat website               :
-      email                        :
-
-
-      untuk website ini adalah mode gratis, sebenarnya website tersebut adalah website untuk saya belajar membuat sebuah website. disana terdapat toolbar contack-us yang menampilkan keterangan lengkap saya. dihalaman awal akan saya beri program membayar spp ini beserta video pernyataan saya mengenai program ini.
-
-      saya mohon pertolongan kepada semuanya, juga mohon di bagikan kepada orang lain. dan saya ucap banyak - banyak terima kasih atas perhatiannya.
-        
-        
-        
-        
-       
-        Teruntuk yang disana, Perkenalkan nama saya ady prasetiyo, Saya mempunyai bapak bernama Zaenal arifin. Saya bertempat tinggal di Gondang Rt 01 Rw 01, Maksud dari saya memberikan surat ini adalah bahwa saya ingin menyampaikan perasaan menyukai pada ...... karena memang saya yang saat ini lebih menjaga jarak dari yang bukan mahram saya, tidak berpacaran dan menghindari percakapan dari yang bukan mahram saya.  maka saya tulislah surat ini untuk menjelaskan keadaan saya saat ini. Agar menjadi semangat saya yang sedang kehilangan sebuah harapan, kemudian saya sebenarnya berniat meminang namun selagi masih diberi waktu tempo saya ingin berusaha melanjutkan kuliah yang saya hentikan sementara waktu karena belum dapat membayar administrasi. Sekarang ini saya sedang mencari pekerjaan untuk melunasi kuliah saya. Terkadang kehidupan saya tidaklah seperti yang terlihat oleh orang lain, dan entah mengapa saya butuh berbagi kisah tersebut dengan anda. mungkin faktornya karena jenuh berada di ruang rumah ini, banyak hal yang selalu saya pikirkan sendirian dan jarang ada orang yang mendukung pemikiran saya.  <br><br><br>
-        
-        
-      jika apa yang di inginkan orang tua saya untuk tidak menikah sebelum saya dapat memberi nafkah yang cukup, terpenuhi. Insyaallah saya akan datang untuk anda yang saya kasihi. saya juga minta maaf bila menggagu anda, saya memang tidak kenal kehidupan anda, sepatah kata pun sebelumnya tak pernah terucap, bertatap muka hanya sesaat. namun apa yang saya tanyakan mengenai anda pada tetangga anda sudahlah cukup menjawab untuk saya. dan jika ternyata anda sudah memiliki perasaan pada seseorang atau kemudian sebelum saya meminang, anda memang menemukan yang cocok untuk anda, mungkin nantinya anda menolak saya suatu saat. maka saya pasti akan bahagia untuk anda dengan setiap keputasan anda, berharap itu yang terbaik untuk anda.<br><br><br>
-
-      -->
-
-
-      <br><br><br>Assalamu'alaikum Warahmatullahi Wabarakatuh
-      <br> 
-
-      
-
-      </p> 
       </div>
 
-      <div >
-      <div >
-        <div></div>
+      
+          </form>
+
+        </div>
       </div>
-      </div>
-      </div>
-      </div>
-      <div class="carousel-cell2" alt="">
-      </div>
-      </div>
-    <div class="navigation">
-      <label for="r1" class="bar"></label>
-      <label for="r2" class="bar"></label>
-      <label for="r3" class="bar"></label>
-      <label for="r4" class="bar"></label>
+
     </div>
-</div>
-</div>
-</div>
 
-
-
-
-<article class="box1">
-  <div class="gallery4__copy"></div>
-</article>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script>
-    $( document ).ready(function() {
-
-
-    });
-
-
-     $(".header__icon-bar").click(function(e){
-
-
-
-
-    $(".header__menu").toggleClass('is-open');
-         e.preventDefault();
-
-    });
+  </header>
 
  
 
-  </script>
-
-
-<script>
-  const btnscrollToTop= document.querySelector("#btnscrollToTop");
-  btnscrollToTop.addEventListener("click", function(){
-    //window.scrollTo(0, 0);
-
-    // window.scrollTo({
-    //   top:0,
-    //   left:0,
-    //   behavior:"smooth"window.scrollTo({
-    // });
-
-    $("html,body").animate({scrollTop:0}, "slow");
-
-  });
-
-  </script>
 
 
 
+
+
+  <main class="w3-content " id="main">
+
+    <div class="w3-row w3-padding-64 w3-white">
+
+      <div class="w3-col l8 w3-container">
+
+       
+        <article class="w3-white w3-margin-bottom">
+          <div class="w3-container">
+
+            <section class="container">
+              <header class="w3-padding-16 w3-center">
+                <h2 tabindex="0">Manga List</h2> 
+                <p>Title description, <time class="w3-text-grey">2025-10-15</time></p>
+              </header>
+              <h3 >1. INKARNASI </h3>
+              <p><span  style=color:#3a363b; >Status :</span> <span style="color: rgb(88, 134, 19);">Ongoing</span> </p>
+              <p class="rata"><span style="color: #3a363b;">Prolog :</span>  The story begins with Zio, a cashier at MD, who dies at work after a robbery and is reincarnated as an adventurer on another planet called Ink Planet. Zio possesses a special weapon that only a few possess, a ruler capable of delivering powerful attacks. During his adventures, he finds friends and forms a group to explore. Not long after his incarnation, Zio meets Karin. Karin becomes the first member of Zio's adventurer group.</p>
+              <div class="slider-wrapper">
+            
+ 
+                
+                <div class="slider">
+                  <img id="slide-1" src="INKARNASI.jpg" alt="">
+                  <img id="slide-2" src="Screenshot_4.jpg" alt="">
+                  <img id="slide-3" src="Screenshot_4.jpg" alt="">
+                </div>
+                <div class="slider-nav">
+                  <a href="#slide-1"></a>
+                  <a href="#slide-2"></a>
+                  <a href="#slide-3"></a>
+            
+                </div>
+              </div>
+            
+             </section>
+
+            
+            <hr>
+
+            <div class="usr-repl-modal">
+              <div class="w3-row w3-padding-16 w3-animate-left">
+
+                <div class="w3-col m3">
+
+                </div>
+
+              
+
+              </div>
+            </div>
+
+          </div>
+        </article>
+
+
+        
+        
+
+      </div>
+
+    
+
+      <aside class="w3-col l4 w3-container">
+        <h2 class="visually-hidden">Other News</h2>
+
+        <section class="w3-margin-bottom">
+          <h2 class="visually-hidden">Profile</h2>
+        
+          <div class="w3-container w3-black">
+            <h3 tabindex="0">introduction</h3>
+            <span class="rata"><p>Inkarnasi is a manifestation of oneself that occupies another form that is newer than before. And I named this website with that name, hoping that customers can experience this Inkarnasi, by reading or watching a work of fiction here.</p></span> 
+          </div>
+        </section>
+
+       
+
+        <section class="w3-margin-bottom w3-white">
+          <div class="w3-container w3-black">
+            <h2 tabindex="0">Top Anime</h2>
+          </div>
+          
+       
+
+          
+          <ul class="w3-ul w3-hoverable">
+            <li >
+          
+              <div class="w3-container w3-display-container w3-section ">
+                <span  >               <a class="w3-block" href="" target="_blank">
+             
+                  <source type="image/webp"
+                          srcset="image/avatar_smoke.webp">
+                          
+                <h3 >1. One Piece </h3>
+                <p><span  style=color:#3a363b; >Genres :</span> Action, Adventure, Martial Arts, Shounen, Super Power</p>
+              </a> </span>
+                <img  src="top anime/one  piece/AAAABRKIQnGja8FW7HtFjgOF_TmYAR_dn3eeN2Cayj3Gm2kEhjSETNusxVJj712wh_n7reHNrt3Bt6_S_U7jF4h8ugUgeXYHpcqbzHxO.jpg"  alt=""> 
+              </div>
+              
+
+       
+            </li>
+       
+            
+            <li >
+          
+              <div class="w3-container w3-display-container w3-section ">
+                <span  >               <a class="w3-block" href="" target="_blank">
+             
+                  <source type="image/webp"
+                          srcset="image/avatar_smoke.webp">
+                          
+                <h3 >2. Boruto </h3>
+                <p><span  style=color:#3a363b; >Genres :</span> Action, Adventure, Martial Arts, Shounen, Super Power</p>
+              </a> </span>
+                <img  src="top anime/boruto/055162500_1437614355-boruto-naruto-movie-hl.jpg"  alt=""> 
+              </div>
+              
+
+       
+            </li>
+
+              <li>
+                <div class="w3-container w3-display-container w3-section ">
+                  <span  >               <a class="w3-block" href="" target="_blank">
+             
+                  <source type="image/webp"
+                          srcset="image/avatar_smoke.webp">
+
+                <h3>3. Naruto Shippuden</h3>
+                <p><span  style=color:#3a363b; >Genres :</span>Action, Adventure, Comedy, Martial Arts, Shounen, Super Power</p>
+              </a>
+              <img  src="top anime/naruto/naruto-shippuden.jpeg"  alt=""> 
+              </div>
+              
+            </li>
+
+            <li>
+              <div class="w3-container w3-display-container w3-section ">
+                <span  >               <a class="w3-block" href="" target="_blank">
+             
+             
+                  <source type="image/webp"
+                          srcset="image/avatar_smoke.webp">
+
+                <h3>4. Bleach </h3>
+                <p><span  style=color:#3a363b; >Genres :</span> Action, Adventure, Comedy, Shounen, Super Power, Supernatural</p>
+              </a>
+              <img  src="top anime/bleach/key_art_bleach.jpg"  alt=""> 
+            </div>
+            </li>
+            
+            <li>
+              <div class="w3-container w3-display-container w3-section ">
+                <span  >               <a class="w3-block" href="" target="_blank">
+           
+       
+                <h3>5. Solo Leveling Season 2  </i></h3>
+                <p><span  style=color:#3a363b; >Genres :</span> Action, Adult Cast, Adventure, Fantasy, Magic, Urban Fantasy</p>
+              </a>
+              <img  src="top anime/solo leveling/solo-levelingarise-1jinw.jpg"  alt=""> 
+            </div>
+            </li>
+
+            
+
+          </ul>
+        </section>
+
+        
+        <section class="w3-margin-bottom w3-white">
+          <div class="w3-container w3-black">
+            <h2 tabindex="0">Top Manga</h2>
+          </div>
+          <ul class="w3-ul w3-hoverable">
+            
+            <li>
+              <div class="w3-container w3-display-container w3-section ">
+                <span  >               <a class="w3-block" href="" target="_blank">
+             
+                  <source type="image/webp"
+                          srcset="image/avatar_smoke.webp">
+
+                <h3>1. Inkarnasi </h3>
+             
+              </a>
+              <img  src="top manga/Inkarnasi/INKARNASI.jpg"  alt=""> 
+            </div>
+            </li>
+            
+              <li>
+
+                <div class="w3-container w3-display-container w3-section ">
+                  <span  >               <a class="w3-block" href="" target="_blank">
+
+                  <source type="image/webp"
+                          srcset="image/avatar_smoke.webp">
+ 
+                  <h3>2. Berserk </h3>
+               
+                </a>
+                <img  src="top manga/berserk/AAAABQodmeojgag-Zy7qOHXJOjqyyS4eWROBtTMFy2BkS155qOQ-Yq1FBOAzNk70rOy1gShUzg14GQO6CfTcHQ8ZAt6DXVf0JHdngG6r.jpg"  alt=""> 
+              </div>
+              </li>
+
+              <li>
+                <div class="w3-container w3-display-container w3-section ">
+                  <span  >               <a class="w3-block" href="" target="_blank">
+              <a class="w3-block" href="https://community.polana.network/dashboard" target="_blank">
+             
+                  <source type="image/webp"
+                          srcset="image/avatar_smoke.webp">
+
+                <h3>3. JoJo no Kimyou na Bouken </h3>
+               
+              </a>
+              <img  src="top manga/jojo/D3NFeUS.jpg"  alt=""> 
+            </div>
+            </li>
+            <li>
+              <div class="w3-container w3-display-container w3-section ">
+                <span  >               <a class="w3-block" href="" target="_blank">
+            <a class="w3-block" href="https://community.polana.network/dashboard" target="_blank">
+             
+                  <source type="image/webp"
+                          srcset="image/avatar_smoke.webp">
+
+                <h3>4. Vagabond </h3>
+                
+              </a>
+              <img  src="top manga/Vagabond/1_KyLyqNgg1A.jpg"  alt=""> 
+            </div>
+            </li>
+            <li>
+              <div class="w3-container w3-display-container w3-section ">
+                <span  >               <a class="w3-block" href="" target="_blank">
+            <a class="w3-block" href="https://community.polana.network/dashboard" target="_blank">
+       
+                <h3>5. One Piece   </i></h3>
+               
+              </a>
+              <img  src="top manga/one piece/one-piece-cool-hxhg60z6eqelyxwn.jpg"  alt=""> 
+            </div>
+            </li>
+
+
+           
+           
+          </ul>
+        </section>
+
+
+        <section class="w3-margin-bottom w3-white">
+          <div class="w3-container w3-black">
+            <h2 tabindex="0">anime movie</h2>
+          </div>
+          <ul class="w3-ul w3-hoverable">
+            <li>
+              <a class="w3-block" >
+             
+                  <source type="image/webp"
+                          srcset="image/avatar_smoke.webp">
+
+                <h3>Kimetsu no Yaiba Movie : Mugen Jou-hen</h3>
+             
+              </a>
+            </li>
+            <li>
+              <a class="w3-block" >
+       
+                <h3>Sidonia no Kishi : Ai Tsumugu Hoshi</h3>
+               
+              </a>
+            </li>
+            <li>
+              <a class="w3-block" >
+ 
+                <h3>Overlord Movie 3 : Sei Oukoku-hen</h3>
+                
+              </a>
+            </li>
+            <li>
+              <a class="w3-block" >
+ 
+                <h3>Boku no Hero Academia the Movie 4 : You’re Next</h3>
+                
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="w3-white w3-margin-bottom usr-ads">
+          <div class="w3-container w3-black">
+            <h2 tabindex="0">Shop </h2>
+          </div>
+          <div class="w3-container">
+            <div class="w3-container w3-display-container w3-section w3-light-grey">
+              <span class="" style=color:#0c0b0c; href="https://artrun.io/profile/adyaja" ><h3><b>Food</b> </h3>  </span>
+              <img src="5-anime-cocok-jadi-teman-makan-1574243728.webp" alt="">
+            </div>
+            <div class="w3-container w3-display-container w3-section w3-light-grey">
+              <span  class="" style=color:#0c0b0c;  href="https://opensea.io/0x6dcFfB450b77dDB8dE443c5d47Fc043B131F6439" target="_blank"> <h3><b>costume</b></h3>  </span>
+              <img src="istockphoto-627944024-612x612 (1).jpg" alt="">
+            </div>
+          </div>
+        </section>
+
+        <section class="w3-white w3-margin-bottom usr-ads">
+          <div class="w3-container w3-black">
+            <h2 tabindex="0">release schedule</h2>
+          </div>
+          <div class="w3-bar w3-large"> 
+            
+            <a class="w3-bar-item w3-button" ><span >Anime</span><span ></span></a>
+            <a class="w3-bar-item w3-button" ><span >Manga</span><span ></span></a>
+            <a class="w3-bar-item w3-button"><span >Movie</span><span ></span></a>
+            
+            
+            </div>
+          </div>
+        </section>
+
+        
+       
+      </aside>
+
+    </div>
+
+    <div class="w3-container w3-padding-32">
+      <a class="w3-button w3-mobile w3-black" href="#"><span class="fa fa-arrow-up w3-margin-right"></span> To the top</a>
+    </div>
+
+  </main>
+
+  <footer class="w3-container w3-padding-32 w3-center w3-black">
+
+    <h2 class="visually-hidden">Contacts</h2>
+
+    <p>Go to <a href="index.html">Main</a></p>
+
+    <p>Create by <a href="https://www.typenote.io">Typenote</a></p>
+
+    <p>Powered by <a href="https://www.w3schools.com/w3css/">W3.CSS</a></p>
+
+  </footer>
+
+  <script src="js/default.js"        async></script>
+  <script src="js/janeblog.js"       async></script>
+  <script src="js/focus-visible.js"  async></script>
 
 </body>
+</html>
